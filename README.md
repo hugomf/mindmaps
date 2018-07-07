@@ -1,2 +1,8 @@
 # Mind Maps 
-Documents to understand basic information about different topics
+
+Mapas Mentales ayudan a entender y recordar diferentes conceptos tales como:
+
+- Blockchain
+- Java
+- Web Services
+- Patrones de Disenño
