@@ -1,8 +1,8 @@
 # Mind Maps 
 
-Mapas Mentales ayudan a entender y recordar diferentes conceptos tales como:
+Mapas Mentales en formato FreeMind [http://freemind.sourceforge.net/wiki/index.php/Main_Page]  que me ayudan a entender y recordar diferentes conceptos:
 
 - Blockchain
-- Java
-- Web Services
-- Patrones de Disenño
+- Basic Java
+- Multi-tenant / Single-tenant applications
+- Netflix applications
