@@ -13,7 +13,7 @@
 <node CREATED="1530067493657" ID="ID_679154487" MODIFIED="1530067501688" TEXT="Running on a separate Virtual Machine"/>
 <node CREATED="1530067509870" ID="ID_1001858527" MODIFIED="1530067518591" TEXT="All on a common Hardware Platform"/>
 </node>
-<node CREATED="1530069322998" FOLDED="true" ID="ID_1955291297" MODIFIED="1530116493813" POSITION="left" TEXT="Dedicated (Single)">
+<node CREATED="1530069322998" FOLDED="true" ID="ID_1955291297" MODIFIED="1585174204593" POSITION="left" TEXT="Dedicated (Single)">
 <node CREATED="1530069497016" ID="ID_225578643" MODIFIED="1530069519393" TEXT="Cloud Infraestructure you can access in your facility  "/>
 </node>
 </node>
