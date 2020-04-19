@@ -259,10 +259,10 @@
       <font size="2">Simple Queue Service</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1585194800023" ID="ID_1863742687" MODIFIED="1585194804091" POSITION="left" TEXT="CloudFormation"/>
+<node COLOR="#006699" CREATED="1585194800023" ID="ID_1863742687" MODIFIED="1587226457782" POSITION="left" TEXT="CloudFormation"/>
+<node CREATED="1587228341348" ID="ID_1337632189" MODIFIED="1587228341348" POSITION="left" TEXT=""/>
 </node>
 </map>
