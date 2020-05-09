@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1530019120874" ID="ID_1289159664" MODIFIED="1530019126997" TEXT="Security">
-<node CREATED="1530019127513" ID="ID_387655497" MODIFIED="1587270111195" POSITION="right" TEXT="Cross-site request forgery (CSRF)">
+<node CREATED="1530019127513" FOLDED="true" ID="ID_387655497" MODIFIED="1587346455438" POSITION="right" TEXT="Cross-site request forgery (CSRF)">
 <node CREATED="1530019893554" ID="ID_1652785690" MODIFIED="1530020318291" TEXT="How it is performed?">
 <node CREATED="1530019899088" ID="ID_1510017704" MODIFIED="1530019932660" TEXT="1. The Victim logs into the  &quot;Good site&quot;"/>
 <node CREATED="1530019933548" ID="ID_271808808" MODIFIED="1530020042443" TEXT="2. The &quot;Good site&quot; creates a session token and sends it back to the Victim"/>
@@ -25,7 +25,7 @@
 <node CREATED="1530036485491" ID="ID_378176237" MODIFIED="1530036491202" TEXT="Prepare Statements"/>
 </node>
 </node>
-<node CREATED="1530028819528" ID="ID_1344591826" MODIFIED="1587270093022" POSITION="left" TEXT="Cross-site scripting (CSS)">
+<node CREATED="1530028819528" FOLDED="true" ID="ID_1344591826" MODIFIED="1587346457156" POSITION="left" TEXT="Cross-site scripting (CSS)">
 <node CREATED="1530028831977" ID="ID_235710349" MODIFIED="1530028834679" TEXT="Types">
 <node CREATED="1530028835183" ID="ID_1584418989" MODIFIED="1530035484105" TEXT="Stored XSS (Persistent)"/>
 <node CREATED="1530028840463" ID="ID_1505963799" MODIFIED="1530035494545" TEXT="Reflected XSS (Non persistent)"/>

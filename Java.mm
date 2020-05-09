@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1526523516658" ID="ID_1281309025" MODIFIED="1587247457200" TEXT="Java">
 <edge STYLE="bezier"/>
-<node CREATED="1527090492169" FOLDED="true" ID="ID_1760135691" MODIFIED="1587270437206" POSITION="right" TEXT="Java Collections ">
+<node CREATED="1527090492169" ID="ID_1760135691" MODIFIED="1588434282157" POSITION="right" TEXT="Java Collections ">
 <edge STYLE="bezier"/>
 <node CREATED="1527098131539" ID="ID_815293978" MODIFIED="1527098135217" TEXT="Arrays"/>
 <node CREATED="1530117194976" FOLDED="true" ID="ID_1637225734" MODIFIED="1587270411511" TEXT="Dictionary">
@@ -10,9 +10,29 @@
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffff" COLOR="#000000" CREATED="1527090497296" FOLDED="true" ID="ID_1843603134" MODIFIED="1587270409979" TEXT="Map">
+<node BACKGROUND_COLOR="#ccffff" COLOR="#000000" CREATED="1527090497296" ID="ID_1843603134" MODIFIED="1588783355725" TEXT="Map">
 <edge STYLE="bezier"/>
-<node CREATED="1527090599184" ID="ID_92261479" MODIFIED="1587267064728" TEXT="HashMap">
+<node CREATED="1527090599184" ID="ID_92261479" MODIFIED="1588783771838" TEXT="HashMap">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">It allows null for both key and value.</font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">HashMap does not maintain insertion order. The order is defined by the Hash function.</font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">It is not synchronized. It will have better performance.</font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">HashMap are not thread safe, but you can use Collections.synchronizedMap(new HashMap&lt;K,V&gt;())</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1587267069277" ID="ID_831952459" MODIFIED="1587267071860" TEXT="WeakHashMap"/>
 <node CREATED="1527093538832" ID="ID_214068857" MODIFIED="1527095182651" TEXT="LinkHashMap">
@@ -28,9 +48,18 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffff" CREATED="1527090525639" FOLDED="true" ID="ID_1720730907" MODIFIED="1587270407867" TEXT="Collection">
+<node BACKGROUND_COLOR="#ccffff" CREATED="1527090525639" ID="ID_1720730907" MODIFIED="1588434284325" TEXT="Collection">
 <edge STYLE="bezier"/>
-<node BACKGROUND_COLOR="#ccffff" CREATED="1527090511375" ID="ID_183363239" MODIFIED="1527095065954" TEXT="List">
+<node BACKGROUND_COLOR="#ccffff" CREATED="1527090511375" ID="ID_183363239" MODIFIED="1588783725363" TEXT="List">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    List&#160;is an ordered sequence of elements whereas&#160;Set&#160;is a distinct list of elements which is unordered
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1527090538454" ID="ID_1528217309" MODIFIED="1527095193894" STYLE="fork" TEXT="LinkedList">
 <edge STYLE="bezier"/>
@@ -47,12 +76,64 @@
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffff" CREATED="1527090506039" ID="ID_1724414852" MODIFIED="1527095065954" TEXT="Set">
+<node BACKGROUND_COLOR="#ccffff" CREATED="1527090506039" ID="ID_1724414852" MODIFIED="1588783732664" TEXT="Set">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    List&#160;is an ordered sequence of elements whereas&#160;Set&#160;is a distinct list of elements which is unordered
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
-<node CREATED="1527090551128" ID="ID_1826654437" MODIFIED="1527095065954" TEXT="HashTable">
+<node CREATED="1527090551128" ID="ID_1826654437" MODIFIED="1588783488472" TEXT="HashTable">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="3">Hashtable does not maintain insertion order. The order is defined by the Hash function. So only use this if you do not need data in order.</font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">It does not allow null for both key and value. It will throw NullPointerException. </font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">It is synchronized. It is slow. Only one thread can access in one time. </font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">HashTable uses Enumerator to iterate through elements.</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
 </node>
-<node CREATED="1527090561496" ID="ID_1094833783" MODIFIED="1527095065954" TEXT="HashSet">
+<node CREATED="1527090561496" ID="ID_1094833783" MODIFIED="1588783586273" TEXT="HashSet">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">Does not allow duplicate values. </font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">It provides add method rather put method.</font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">You also use its contain method to check whether the object is already available in HashSet. HashSet can be used where you want to maintain a unique list.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1527093311787" ID="ID_1006402612" MODIFIED="1527095189305" TEXT="LinkedHashSet">
 <edge STYLE="bezier"/>
@@ -276,7 +357,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1527097938742" FOLDED="true" ID="ID_611911516" MODIFIED="1587270544778" POSITION="right" TEXT="Java Strings">
+<node CREATED="1527097938742" FOLDED="true" ID="ID_611911516" MODIFIED="1588788107525" POSITION="right" TEXT="Java Strings">
 <node CREATED="1526524012021" ID="ID_272565584" MODIFIED="1527095065955" TEXT="String">
 <edge STYLE="bezier"/>
 </node>
@@ -394,7 +475,7 @@
 <node CREATED="1526523535132" ID="ID_470384457" MODIFIED="1586579176662" TEXT="Package Private scope (no modifier)"/>
 <node CREATED="1526523541155" ID="ID_1816559688" MODIFIED="1526523652791" TEXT="Public  /world scope"/>
 </node>
-<node CREATED="1526524505030" FOLDED="true" ID="ID_967573490" MODIFIED="1587247018699" POSITION="left" TEXT="Threads">
+<node CREATED="1526524505030" ID="ID_967573490" MODIFIED="1588434289258" POSITION="left" TEXT="Threads">
 <edge STYLE="bezier"/>
 <node CREATED="1526524510437" ID="ID_425117661" MODIFIED="1586579123912" TEXT="ThreadLocal">
 <richcontent TYPE="NOTE"><html>
@@ -451,7 +532,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587247461382" FOLDED="true" ID="ID_1785413383" MODIFIED="1587259914473" POSITION="right" TEXT="Java Memory">
+<node CREATED="1587247461382" FOLDED="true" ID="ID_1785413383" MODIFIED="1588788119681" POSITION="right" TEXT="Java Memory">
 <node CREATED="1587247471208" ID="ID_1405406661" MODIFIED="1587247518895" TEXT="Memory Types">
 <node CREATED="1587247476961" ID="ID_1310340843" MODIFIED="1587247524231" TEXT="Heap">
 <richcontent TYPE="NOTE"><html>
@@ -567,7 +648,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587259546599" FOLDED="true" ID="ID_1359114712" MODIFIED="1587270433485" POSITION="left" TEXT="Concepts">
+<node CREATED="1587259546599" ID="ID_1359114712" MODIFIED="1588434291470" POSITION="left" TEXT="Concepts">
 <node CREATED="1587259551554" ID="ID_509429278" MODIFIED="1587261625880" TEXT="Overload"/>
 <node CREATED="1587259554115" FOLDED="true" ID="ID_146313527" MODIFIED="1587262338045" TEXT="Override">
 <richcontent TYPE="NOTE"><html>
@@ -693,7 +774,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1587259568088" FOLDED="true" ID="ID_1555161542" MODIFIED="1587262356973" TEXT="Constructors">
+<node CREATED="1587259568088" ID="ID_1555161542" MODIFIED="1588783831459" TEXT="Constructors">
 <node CREATED="1587259574390" FOLDED="true" ID="ID_1730284194" MODIFIED="1587261492717" TEXT="Types">
 <node CREATED="1587259578469" ID="ID_1073069154" MODIFIED="1587259689648" TEXT="Default">
 <richcontent TYPE="NOTE"><html>
@@ -723,14 +804,14 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587259735930" FOLDED="true" ID="ID_610911666" MODIFIED="1587261489586" TEXT="Caracteristicas">
+<node CREATED="1587259735930" ID="ID_610911666" MODIFIED="1588788124316" TEXT="Caracteristicas">
 <node CREATED="1587259752273" ID="ID_1882135004" MODIFIED="1587259755513" TEXT="Cannot be final"/>
 <node CREATED="1587259755958" ID="ID_1622742062" MODIFIED="1587259769202" TEXT="return instance"/>
 <node CREATED="1587259781298" ID="ID_722360031" MODIFIED="1587259787070" TEXT="we can overload constructors"/>
 <node CREATED="1587259830430" ID="ID_1195064667" MODIFIED="1587259836059" TEXT="must not have a return type"/>
 <node CREATED="1587259853669" ID="ID_871991284" MODIFIED="1587259859776" TEXT="must have the same class name"/>
 </node>
-<node CREATED="1587260989678" FOLDED="true" ID="ID_277177759" MODIFIED="1587261116337" TEXT="this">
+<node CREATED="1587260989678" FOLDED="true" ID="ID_277177759" MODIFIED="1588788125795" TEXT="this">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -761,7 +842,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node CREATED="1587261086668" ID="ID_58675867" MODIFIED="1587261107199" TEXT="it is not possible to assign a value to this">
+<node CREATED="1587261086668" ID="ID_58675867" MODIFIED="1588783890688" TEXT="it is not possible to assign a null value to this">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -776,7 +857,7 @@
 </node>
 <node CREATED="1587260993554" ID="ID_849690971" MODIFIED="1587260994872" TEXT="super"/>
 </node>
-<node CREATED="1587262360475" FOLDED="true" ID="ID_428089993" MODIFIED="1587262632490" TEXT="Methods">
+<node CREATED="1587262360475" ID="ID_428089993" MODIFIED="1588788164460" TEXT="Methods">
 <node CREATED="1587262372522" ID="ID_118960685" MODIFIED="1587262399050" TEXT="it is possible to have virtual functions">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -805,7 +886,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587262638352" FOLDED="true" ID="ID_1516602267" MODIFIED="1587263637630" TEXT="final">
+<node CREATED="1587262638352" ID="ID_1516602267" MODIFIED="1588788132925" TEXT="final">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -819,7 +900,7 @@
 <node CREATED="1587262710132" ID="ID_1566322558" MODIFIED="1587262718430" TEXT="stop value change"/>
 <node CREATED="1587262720210" ID="ID_1185820382" MODIFIED="1587262724205" TEXT="stop method overriding"/>
 <node CREATED="1587262725721" ID="ID_322449566" MODIFIED="1587262728595" TEXT="stop inheritance"/>
-<node CREATED="1587263056884" FOLDED="true" ID="ID_1779273836" MODIFIED="1587263137917" TEXT="final class">
+<node CREATED="1587263056884" FOLDED="true" ID="ID_1779273836" MODIFIED="1588788149529" TEXT="final class">
 <node CREATED="1587262665918" ID="ID_959034604" MODIFIED="1587262673745" TEXT="final in a class makes it inmutable"/>
 <node CREATED="1587263078097" ID="ID_1564829161" MODIFIED="1587263079294" TEXT="If you make any class as final, you cannot extend it."/>
 </node>

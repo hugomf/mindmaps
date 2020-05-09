@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1581858755474" ID="ID_1206890310" MODIFIED="1587270631163" TEXT="JavaServer Faces">
-<node CREATED="1581858771470" ID="ID_856712416" MODIFIED="1581859554092" POSITION="right">
+<node CREATED="1581858771470" FOLDED="true" ID="ID_856712416" MODIFIED="1587346420785" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21,8 +21,9 @@
       <img src="https://docs.oracle.com/javaee/5/tutorial/doc/figures/jsfIntro-lifecycle.gif" />
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1581858817562" ID="ID_1471368506" MODIFIED="1587271286433" TEXT="Execute Phase">
+</html>
+</richcontent>
+<node CREATED="1581858817562" FOLDED="true" ID="ID_1471368506" MODIFIED="1587346417627" TEXT="Execute Phase">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -35,8 +36,7 @@
       For other subsequent request,
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_1471368506" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1867791342" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1471368506" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1867791342" SOURCE="ID_1471368506" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node CREATED="1581859002796" FOLDED="true" ID="ID_934052741" MODIFIED="1587271170648" TEXT="Restore view">
@@ -61,8 +61,7 @@
       <font size="1">The FacesContext instance will now contain all the information required to process a request </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587270832866" ID="ID_342122348" MODIFIED="1587270836764" TEXT="builds the view"/>
 <node CREATED="1587270844839" ID="ID_1581780851" MODIFIED="1587270883607" TEXT="wires event handlers to UIComponents"/>
 <node CREATED="1587270863750" ID="ID_1750237771" MODIFIED="1587270888545" TEXT="wires validators to UIComponents"/>
@@ -93,8 +92,7 @@
       <font size="1">If any decode methods event listeners called <b>renderResponse</b>&#160;on the current <b>FacesContext</b>&#160;instance, the JSF moves to the render response phase.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1581859017086" ID="ID_285258421" MODIFIED="1587271275990" TEXT="Process Validations">
 <richcontent TYPE="NOTE"><html>
@@ -109,8 +107,7 @@
       <font size="1">Life cycle advances to the render response phase and displays the same page again with the error message</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1581859029659" ID="ID_119173708" MODIFIED="1587271328200" TEXT="Update Model Values">
 <richcontent TYPE="NOTE"><html>
@@ -122,8 +119,7 @@
       <font size="1">After the JSF checks that the data is valid, it walks over the component tree and sets the corresponding server-side object properties to the components' local values. </font><br /><font size="1">JSF will update the bean properties corresponding to the input component's value attribute. </font><br /><font size="1">If any updateModels methods called renderResponse on the current FacesContext instance, JSF moves to the render response phase </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1581859039209" ID="ID_928994096" MODIFIED="1587271348379" TEXT="Invoke Aplication">
 <richcontent TYPE="NOTE"><html>
@@ -133,8 +129,7 @@
   <body>
     <font size="1">During this phase, JSF handles any application-level events, such as submitting a form/linking to another page. </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1581859050239" ID="ID_182554480" MODIFIED="1587271441785" TEXT="Render Response">
 <richcontent TYPE="NOTE"><html>
@@ -158,8 +153,7 @@
       <font size="1">After the content of the view is rendered, the response state is saved so that subsequent requests can access it and it is available to the restore view phase </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1581858825624" ID="ID_719212323" MODIFIED="1581858833341" TEXT="Render Phase"/>
@@ -169,7 +163,7 @@
 <node CREATED="1587270648853" ID="ID_1870426525" MODIFIED="1587270650601" TEXT="Primefaces"/>
 <node CREATED="1587270650920" ID="ID_731714035" MODIFIED="1587270655254" TEXT="Icefaces"/>
 </node>
-<node CREATED="1587271486176" ID="ID_1824626983" MODIFIED="1587273385506" POSITION="left" TEXT="Scopes">
+<node CREATED="1587271486176" FOLDED="true" ID="ID_1824626983" MODIFIED="1587346381117" POSITION="left" TEXT="Scopes">
 <node CREATED="1587271499158" ID="ID_1312682946" MODIFIED="1587271725276" TEXT="@RequestScoped">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -178,10 +172,9 @@
   <body>
     <font size="1">Bean lives as long as the HTTP request-response lives. It gets created upon a HTTP request and gets destroyed when the HTTP response associated with the HTTP request is finished. </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1587273390724" ID="ID_60915255" MODIFIED="1587273426762" TEXT="@FlowScoped">
+<node CREATED="1587273390724" ID="ID_60915255" MODIFIED="1587346345003" TEXT="@FlowScoped">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -207,8 +200,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587271514067" ID="ID_1980084514" MODIFIED="1587271694110" TEXT="@ViewScoped">
 <richcontent TYPE="NOTE"><html>
@@ -218,8 +210,7 @@
   <body>
     <font size="1">Bean lives as long as the user is interacting with the same JSF view in the browser window/tab. It gets created upon a HTTP request and gets destroyed once the user postbacks to a different view </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587271519364" ID="ID_1500699550" MODIFIED="1587271705522" TEXT="@SessionScoped">
 <richcontent TYPE="NOTE"><html>
@@ -229,8 +220,7 @@
   <body>
     <font size="1">Bean lives as long as the HTTP session lives. It gets created upon the first HTTP request involving this bean in the session and gets destroyed when the HTTP session is invalidated. </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587271525566" ID="ID_22816889" MODIFIED="1587271739880" TEXT="@ApplicationScoped">
 <richcontent TYPE="NOTE"><html>
@@ -240,8 +230,7 @@
   <body>
     <font size="1">Bean lives as long as the web application lives. It gets created upon the first HTTP request involving this bean in the application (or when the web application starts up and the eager=true attribute is set in @ManagedBean) and gets destroyed when the web application shuts down </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587271531354" ID="ID_458086615" MODIFIED="1587271762704" TEXT="@CustomScoped">
 <richcontent TYPE="NOTE"><html>
@@ -251,11 +240,10 @@
   <body>
     <font size="1">Bean lives as long as the bean's entry in the custom Map, which is created for this scope lives. </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1587270941082" ID="ID_942991211" MODIFIED="1587271924467" POSITION="left" TEXT="Concepts">
+<node CREATED="1587270941082" FOLDED="true" ID="ID_942991211" MODIFIED="1587346425339" POSITION="left" TEXT="Concepts">
 <node CREATED="1587270944707" ID="ID_469048481" MODIFIED="1587270948237" TEXT="FacesContext"/>
 <node CREATED="1587271830442" ID="ID_731310885" MODIFIED="1587271862579" TEXT="Forward vs Redirect">
 <richcontent TYPE="NOTE"><html>
@@ -273,7 +261,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1587272164317" ID="ID_1041921269" MODIFIED="1587272192347" TEXT="JSF Architecture">
-<node CREATED="1587272099042" ID="ID_1306578034" MODIFIED="1587272100768" TEXT="MVC Design Pattern">
+<node CREATED="1587272099042" FOLDED="true" ID="ID_1306578034" MODIFIED="1587346385934" TEXT="MVC Design Pattern">
 <node CREATED="1587272104974" ID="ID_1634286481" MODIFIED="1587272132991" TEXT="Model">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -299,8 +287,7 @@
       <font color="rgb(102, 102, 102)" face="Source Sans Pro, Arial, sans-serif" size="1">To enable CDI you must have at least an empty&#160;</font><font color="rgb(102, 102, 102)" face="Source Sans Pro, Arial, sans-serif" size="18px"><em style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: italic; font-weight: 300; font-size: 18px; line-height: inherit; font-family: Source Sans Pro, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><i>beans.xml</i></em></font><font color="rgb(102, 102, 102)" face="Source Sans Pro, Arial, sans-serif" size="1">&#160;in the&#160;</font><font color="rgb(102, 102, 102)" face="Source Sans Pro, Arial, sans-serif" size="18px"><em style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: italic; font-weight: 300; font-size: 18px; line-height: inherit; font-family: Source Sans Pro, Arial, sans-serif; vertical-align: baseline; color: rgb(102, 102, 102); letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><i>WEB-INF</i></em></font><font color="rgb(102, 102, 102)" face="Source Sans Pro, Arial, sans-serif" size="1">&#160;directory</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587273237629" ID="ID_155401689" MODIFIED="1587273241550" TEXT="Contexts and Dependency Injection)"/>
 <node CREATED="1587273183179" ID="ID_681078759" MODIFIED="1587273187515" TEXT="@Named"/>
 </node>
@@ -314,8 +301,7 @@
       <font size="1">JavaBeans components as models containing application-specific functionality and data </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587272109970" ID="ID_1180548670" MODIFIED="1587272428766" TEXT="View">
@@ -363,13 +349,12 @@
   <body>
     <font size="1">&#61623; UI components represented as stateful objects on the server </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587272314133" ID="ID_1819599153" MODIFIED="1587272331458" TEXT="Server-Side Helpers"/>
 </node>
 </node>
-<node CREATED="1587272003925" ID="ID_1774791199" MODIFIED="1587272008079" POSITION="right" TEXT=".xhtml"/>
+<node CREATED="1587272003925" ID="ID_1774791199" MODIFIED="1587346400765" POSITION="right" TEXT=".xhtml, .jsf"/>
 </node>
 </map>

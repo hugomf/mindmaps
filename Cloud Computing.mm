@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1530070423497" ID="ID_805147285" MODIFIED="1530116737486" TEXT="Cloud Computing">
+<node CREATED="1530070423497" ID="ID_805147285" MODIFIED="1588982992786" TEXT="Cloud Computing">
 <node CREATED="1530070310966" FOLDED="true" ID="ID_170435779" MODIFIED="1585179489975" POSITION="right" TEXT="Categories of a Cloud Computing">
 <node CREATED="1530070316222" ID="ID_72169892" MODIFIED="1530070365078" TEXT="Software as a Service (SaaS)"/>
 <node CREATED="1530070346584" ID="ID_1347721683" MODIFIED="1530070357037" TEXT="Infraestructure As a Service (SaaS)"/>
@@ -12,7 +12,7 @@
 <node CREATED="1530070521801" ID="ID_1318085279" MODIFIED="1530070524073" TEXT="Storage"/>
 <node CREATED="1530070527434" ID="ID_833256683" MODIFIED="1530070529615" TEXT="Utiities"/>
 </node>
-<node CREATED="1530070614294" FOLDED="true" ID="ID_166818989" MODIFIED="1585179487871" POSITION="right" TEXT="Deployment Models">
+<node CREATED="1530070614294" FOLDED="true" ID="ID_166818989" MODIFIED="1588982957878" POSITION="right" TEXT="Deployment Models">
 <node CREATED="1530070640962" ID="ID_1656670499" MODIFIED="1530071271372" TEXT="Private Cloud">
 <edge COLOR="#0000cc" WIDTH="2"/>
 <node CREATED="1530070726016" ID="ID_220444653" MODIFIED="1530070760113" TEXT="Runs Cloud Servers in the Organization&apos;s Data Center"/>
@@ -50,7 +50,7 @@
 <node CREATED="1530070593916" ID="ID_1421311917" MODIFIED="1530070597574" TEXT="Workload Resilence"/>
 <node CREATED="1530070599488" ID="ID_1315505775" MODIFIED="1530070603622" TEXT="Migration Flexibility"/>
 </node>
-<node CREATED="1530116738344" ID="ID_905833349" MODIFIED="1530116784606" POSITION="right" TEXT="Business Models">
+<node CREATED="1530116738344" ID="ID_905833349" MODIFIED="1588982961453" POSITION="right" TEXT="Business Models">
 <node CREATED="1530116744749" ID="ID_1828336825" MODIFIED="1585174595614" TEXT="SaaS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -61,8 +61,7 @@
       &#160;A solution hosted and maintained by a third-party. (Software as a Service)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1530116784606" ID="ID_1767964738" MODIFIED="1530116818982" TEXT="On Premises">
 <richcontent TYPE="NOTE"><html>
@@ -86,14 +85,48 @@
       <font color="#000000" face="Open Sans, sans-serif" size="2">a solution hosted by a third-party and usually supported by a different third-party.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585179238751" ID="ID_45393280" MODIFIED="1585179244091" POSITION="left" TEXT="Types">
 <node CREATED="1585179260936" ID="ID_246989453" MODIFIED="1585179451232" TEXT="Infraestructure as a Service (IaaS)"/>
 <node CREATED="1585179285989" ID="ID_1615174838" MODIFIED="1585179303102" TEXT="Software as a Service (SaaS)"/>
-<node CREATED="1585179314241" ID="ID_1661185160" MODIFIED="1585179451863" TEXT=""/>
+</node>
+<node CREATED="1588983204259" ID="ID_1395392208" MODIFIED="1588983215503" POSITION="left" TEXT="Infrastructure-as-code">
+<node CREATED="1588983369225" ID="ID_738402939" MODIFIED="1588983373015" TEXT="Types">
+<node CREATED="1588983373481" ID="ID_804932738" MODIFIED="1588983698878" TEXT="Configuration Management">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Configuration tools has some level of provisioning and some provsioning tools has some level of configuration, for example if we are using docker most of the configuration is already taken care of, we only need terraform to do the provisioning.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1588982993530" ID="ID_1906475324" MODIFIED="1588982995831" TEXT="Ansible">
+<node CREATED="1588983954180" ID="ID_315531261" MODIFIED="1588983959312" TEXT="Playbooks"/>
+</node>
+<node CREATED="1588982999344" ID="ID_1845166225" MODIFIED="1588983004844" TEXT="Chef"/>
+</node>
+<node CREATED="1588983380206" ID="ID_640602393" MODIFIED="1588983473742" TEXT="Provisioning">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">provisioning tools are designed to provision the servers themselves (as well as the rest of your infrastructure, like load balancers, databases, networking configuration, etc), leaving the job of configuring those servers to other tools</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1588982996265" ID="ID_793384589" MODIFIED="1588983009414" TEXT="Terraform"/>
+<node CREATED="1588983225992" ID="ID_1306774154" MODIFIED="1588983228953" TEXT="Cloudformation"/>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -49,8 +49,7 @@
       Example in Java:<br /><font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="1">Java Interfaces and abstract classes.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587246559328" ID="ID_906868891" MODIFIED="1587246721366" POSITION="left" TEXT="Encapsulation">
 <richcontent TYPE="NOTE"><html>
@@ -71,8 +70,7 @@
       <font size="2">declare varables/attributes as private<br size="2" />provide getters/setters to access to a private variable<br size="2" /></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587246723666" ID="ID_1331041343" MODIFIED="1587261450543" POSITION="left" TEXT="Polymorfish">
 <richcontent TYPE="NOTE"><html>
@@ -96,10 +94,9 @@
       <a href="https://www.w3schools.com/java/java_inheritance.asp" style="background-color: rgb(255, 255, 255); color: black; font-family: Verdana, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="black" face="Verdana, sans-serif" size="2"><strong style="font-weight: normal">Inheritance</strong></font></a><font color="rgb(0, 0, 0)" face="Verdana, sans-serif" size="1">&#160;lets us inherit attributes and methods from another class.&#160;</font><font size="1"><br size="1" /></font><strong style="font-weight: normal; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 15px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="rgb(0, 0, 0)" face="Verdana, sans-serif" size="2"><u>Polymorphism</u></font></strong><font color="rgb(0, 0, 0)" face="Verdana, sans-serif" size="1">&#160;uses those methods to perform different tasks</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1587246838574" ID="ID_1768297377" MODIFIED="1587261429507" POSITION="left" TEXT="Inheritance">
+<node CREATED="1587246838574" ID="ID_1768297377" MODIFIED="1588365740486" POSITION="left" TEXT="Inheritance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -121,6 +118,18 @@
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1588365568994" ID="ID_1090115048" MODIFIED="1588365672530" POSITION="left" TEXT="Abstraction vs Enscapsulation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://cdn.differencebetween.net/wp-content/uploads/2017/12/Difference-between-Abstraction-and-Encapsulation.jpg">http://cdn.differencebetween.net/wp-content/uploads/2017/12/Difference-between-Abstraction-and-Encapsulation.jpg</a>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </map>
