@@ -4,15 +4,55 @@
 <edge STYLE="bezier"/>
 <node CREATED="1527090492169" ID="ID_1760135691" MODIFIED="1588434282157" POSITION="right" TEXT="Java Collections ">
 <edge STYLE="bezier"/>
-<node CREATED="1527098131539" ID="ID_815293978" MODIFIED="1527098135217" TEXT="Arrays"/>
-<node CREATED="1530117194976" FOLDED="true" ID="ID_1637225734" MODIFIED="1587270411511" TEXT="Dictionary">
-<node CREATED="1527090602887" ID="ID_929735936" MODIFIED="1527095065954" TEXT="HashTable">
+<node CREATED="1527098131539" ID="ID_815293978" MODIFIED="1589044946525" TEXT="Arrays">
+<node CREATED="1589044932717" ID="ID_1449775231" MODIFIED="1589045113531" TEXT="Arrays Or Lists">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <font size="2">The biggest difference is in the idea of direct access Vs sequential access. Arrays allow both; direct and sequential access, while lists allow only sequential access. And this is because the way that these data structures are stored in memory. In addition, the structure of the list doesn&#8217;t support numeric index like an array is. And, the elements don&#8217;t need to be allocated next to each other in the memory like an array is </font>
+
+    <p>
+      <a href="https://javahungry.blogspot.com/2015/03/difference-between-array-and-arraylist-in-java-example.html">https://javahungry.blogspot.com/2015/03/difference-between-array-and-arraylist-in-java-example.html</a>
+    </p>
+    <font size="2">.</font>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589045275185" ID="ID_1388775660" MODIFIED="1589045278266" TEXT="Dictionary">
+<node CREATED="1527090551128" ID="ID_1826654437" MODIFIED="1589045400527" TEXT="HashTable">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">Hashtable does not maintain insertion order. </font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">The order is defined by the Hash function. So only use this if you do not need data in order.</font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">It does not allow null for both key and value. It will throw NullPointerException. </font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">It is synchronized. It is slow. Only one thread can access in one time. </font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">HashTable uses Enumerator to iterate through elements.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ccffff" COLOR="#000000" CREATED="1527090497296" ID="ID_1843603134" MODIFIED="1588783355725" TEXT="Map">
 <edge STYLE="bezier"/>
-<node CREATED="1527090599184" ID="ID_92261479" MODIFIED="1588783771838" TEXT="HashMap">
+<node CREATED="1527090599184" ID="ID_92261479" MODIFIED="1589044390914" TEXT="HashMap">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -31,8 +71,7 @@
       <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">HashMap are not thread safe, but you can use Collections.synchronizedMap(new HashMap&lt;K,V&gt;())</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1587267069277" ID="ID_831952459" MODIFIED="1587267071860" TEXT="WeakHashMap"/>
 <node CREATED="1527093538832" ID="ID_214068857" MODIFIED="1527095182651" TEXT="LinkHashMap">
@@ -58,8 +97,7 @@
   <body>
     List&#160;is an ordered sequence of elements whereas&#160;Set&#160;is a distinct list of elements which is unordered
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1527090538454" ID="ID_1528217309" MODIFIED="1527095193894" STYLE="fork" TEXT="LinkedList">
 <edge STYLE="bezier"/>
@@ -84,52 +122,22 @@
   <body>
     List&#160;is an ordered sequence of elements whereas&#160;Set&#160;is a distinct list of elements which is unordered
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier"/>
-<node CREATED="1527090551128" ID="ID_1826654437" MODIFIED="1588783488472" TEXT="HashTable">
+<node CREATED="1527090561496" ID="ID_1094833783" MODIFIED="1589045281855" TEXT="HashSet">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="3">Hashtable does not maintain insertion order. The order is defined by the Hash function. So only use this if you do not need data in order.</font>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">Does not allow duplicate values. </font>
     </p>
     <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">It does not allow null for both key and value. It will throw NullPointerException. </font>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">It provides add method rather put method.</font>
     </p>
     <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">It is synchronized. It is slow. Only one thread can access in one time. </font>
-    </p>
-    <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">HashTable uses Enumerator to iterate through elements.</font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html>
-</richcontent>
-<edge STYLE="bezier"/>
-</node>
-<node CREATED="1527090561496" ID="ID_1094833783" MODIFIED="1588783586273" TEXT="HashSet">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">Does not allow duplicate values. </font>
-    </p>
-    <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">It provides add method rather put method.</font>
-    </p>
-    <p>
-      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="16px">You also use its contain method to check whether the object is already available in HashSet. HashSet can be used where you want to maintain a unique list.</font>
+      <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">You also use its contain method to check whether the object is already available in HashSet. HashSet can be used where you want to maintain a unique list.</font>
     </p>
   </body>
 </html>
@@ -138,6 +146,19 @@
 <node CREATED="1527093311787" ID="ID_1006402612" MODIFIED="1527095189305" TEXT="LinkedHashSet">
 <edge STYLE="bezier"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1006402612" ENDARROW="None" ENDINCLINATION="114;0;" ID="Arrow_ID_1018715853" SOURCE="ID_1528217309" STARTARROW="Default" STARTINCLINATION="114;0;"/>
+</node>
+<node CREATED="1589045142245" ID="ID_1951271260" MODIFIED="1589045160427" TEXT="Difference from TreeSet">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://javahungry.blogspot.com/2014/03/difference-between-hashset-and-treeset-similarities-and-example.html">https://javahungry.blogspot.com/2014/03/difference-between-hashset-and-treeset-similarities-and-example.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ccffff" CREATED="1527093341348" ID="ID_1618508252" MODIFIED="1527095065954" TEXT="SortedSet">

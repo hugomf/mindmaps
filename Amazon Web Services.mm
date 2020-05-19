@@ -5,8 +5,25 @@
 <node CREATED="1585174790839" ID="ID_30661632" MODIFIED="1585174794161" POSITION="right" TEXT="CloudFront "/>
 <node CREATED="1585174804425" ID="ID_312692219" MODIFIED="1585174808421" POSITION="right" TEXT="API Gateway"/>
 <node CREATED="1585175122287" ID="ID_1629179967" MODIFIED="1585175124942" POSITION="right" TEXT="Amazon SQS"/>
-<node CREATED="1585175214458" ID="ID_563490378" MODIFIED="1585175220124" POSITION="left" TEXT="Amazon Direct Connect"/>
-<node CREATED="1585175666503" ID="ID_1577467238" MODIFIED="1585175668348" POSITION="left" TEXT="AWS Fargate"/>
+<node CREATED="1585175214458" ID="ID_563490378" MODIFIED="1589322327752" POSITION="left" TEXT="Amazon Direct Connect">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">Is a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS. </font><br /><font size="2">Using AWS Direct Connect, you can establish private connectivity between AWS and your datacenter, office, or colocation environment, </font>
+    </p>
+    <p>
+      <font size="2">which in many cases can reduce your network costs, increase bandwidth throughput, </font>
+    </p>
+    <p>
+      <font size="2">and provide a more consistent network experience than Internet-based connections</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1585175562671" ID="ID_584722772" MODIFIED="1585189881392" POSITION="right" TEXT="Compute">
 <node CREATED="1585174774844" ID="ID_1650762920" MODIFIED="1585174777305" TEXT="EC2"/>
 <node CREATED="1585177404388" ID="ID_1950492229" MODIFIED="1585177407236" TEXT="AWS Batch"/>
@@ -89,13 +106,12 @@
       For datawarehouse
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588983846267" ID="ID_1860844750" MODIFIED="1588983854736" TEXT="Amazon Dynamo (NOSQL)"/>
 </node>
 <node CREATED="1585177940747" ID="ID_766662364" MODIFIED="1585179986613" POSITION="right" TEXT="Storage">
-<node CREATED="1585174777868" FOLDED="true" ID="ID_367822563" MODIFIED="1585180050989" TEXT="Amazon S3">
+<node CREATED="1585174777868" FOLDED="true" ID="ID_367822563" MODIFIED="1589322480956" TEXT="Amazon S3">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -108,17 +124,27 @@
 </html></richcontent>
 <node CREATED="1585174830210" ID="ID_1928849293" MODIFIED="1585174834167" TEXT="Buckets"/>
 </node>
-<node CREATED="1585175047628" ID="ID_489268392" MODIFIED="1585178047220" TEXT="Amazon EBS">
+<node CREATED="1585175047628" ID="ID_489268392" MODIFIED="1589321924706" TEXT="Amazon EBS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="2">Amazon Elastic Block store</font>
+      <font size="2">Amazon Elastic Block store&#160;&#160; </font>
+    </p>
+    <p>
+      <font size="2">Persitance block store for use with EC2 instances to scale an adapt </font>
+    </p>
+    <p>
+      <font color="rgb(35, 47, 62)" face="AmazonEmberLight, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif" size="2">A broad range of workloads, such as relational and non-relational databases, enterprise applications, </font>
+    </p>
+    <p>
+      <font color="rgb(35, 47, 62)" face="AmazonEmberLight, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif" size="2">containerized applications, big data analytics engines, file systems, and media workflows are widely deployed on Amazon EBS.</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1585178092472" ID="ID_730856187" MODIFIED="1585180636380" TEXT="Amazon Glacier">
 <richcontent TYPE="NOTE"><html>
@@ -132,7 +158,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1585180107125" ID="ID_350895691" MODIFIED="1585180636411" TEXT="Amazon Glue">
+<node CREATED="1585180107125" ID="ID_350895691" MODIFIED="1589322017619" TEXT="Amazon Glue">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -142,7 +168,8 @@
       <font color="rgb(51, 51, 51)" face="AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif" size="2">is a fully managed service that provides a data catalog to make data in the data lake discoverable, and has the ability to do extract, transform, and load (ETL) to prepare data for analysis</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1585179636922" ID="ID_1340887113" MODIFIED="1585179640644" POSITION="right" TEXT="Big Data">
@@ -237,12 +264,31 @@
 <node CREATED="1585180713893" ID="ID_1278890423" MODIFIED="1585180720142" TEXT="Amazon Kinesis"/>
 </node>
 </node>
-<node CREATED="1585189903378" FOLDED="true" ID="ID_1329569768" MODIFIED="1585189999578" POSITION="left" TEXT="Containers">
+<node CREATED="1585189903378" FOLDED="true" ID="ID_1329569768" MODIFIED="1589322453703" POSITION="left" TEXT="Containers">
 <node CREATED="1585175073967" ID="ID_1660875777" MODIFIED="1585175076769" TEXT="Amazon EKS"/>
 <node CREATED="1585175271991" ID="ID_1526536847" MODIFIED="1585175285248" TEXT="Amazon Elastic Container Registry (ECR)"/>
 <node CREATED="1585175291410" ID="ID_1348159809" MODIFIED="1585175306232" TEXT="Amazon Elastic Container Service (ECS)"/>
+<node CREATED="1585175666503" ID="ID_1577467238" MODIFIED="1589322433020" TEXT="AWS Fargate">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">Is a serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). </font>
+    </p>
+    <p>
+      <font size="2">Fargate removes the need to provision and manage servers, lets you specify and pay for resources per application, </font>
+    </p>
+    <p>
+      <font size="2">and improves security through application isolation by design.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1585189957096" FOLDED="true" ID="ID_928969040" MODIFIED="1587414928437" POSITION="left" TEXT="Development">
+</node>
+<node CREATED="1585189957096" FOLDED="true" ID="ID_928969040" MODIFIED="1589322452264" POSITION="left" TEXT="Development">
 <node CREATED="1585174972941" ID="ID_1616228242" MODIFIED="1585174981452" TEXT="AWS Step Functions"/>
 <node CREATED="1585174798877" ID="ID_561928676" MODIFIED="1585174803013" TEXT="Lambda"/>
 <node CREATED="1585190488156" ID="ID_960734233" MODIFIED="1585190493009" TEXT="Elastic Beanstalk"/>
@@ -273,6 +319,23 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1589322034479" ID="ID_1902197789" MODIFIED="1589322123381" TEXT="SNS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">Amazon Simple Notification Service </font>
+    </p>
+    <p>
+      <font size="2">Fully managed pub/sub messaging for microservices, distributed systems, and serverless applications </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589322095456" ID="ID_1500755272" MODIFIED="1589322095461" TEXT="Amazon Simple Notification Service"/>
 </node>
 </node>
 <node COLOR="#006699" CREATED="1585194800023" ID="ID_1863742687" MODIFIED="1587226457782" POSITION="left" TEXT="CloudFormation"/>

@@ -115,11 +115,10 @@
       <font color="rgb(0, 0, 0)" face="verdana, helvetica, arial, sans-serif" size="1">Inheritance represents the IS-A relationship which is also known as a parent-child relationship</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1588365568994" ID="ID_1090115048" MODIFIED="1588365672530" POSITION="left" TEXT="Abstraction vs Enscapsulation">
+<node CREATED="1588365568994" ID="ID_1090115048" MODIFIED="1589044359388" POSITION="left" TEXT="Abstraction vs Enscapsulation">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -129,7 +128,8 @@
       <a href="http://cdn.differencebetween.net/wp-content/uploads/2017/12/Difference-between-Abstraction-and-Encapsulation.jpg">http://cdn.differencebetween.net/wp-content/uploads/2017/12/Difference-between-Abstraction-and-Encapsulation.jpg</a>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </map>

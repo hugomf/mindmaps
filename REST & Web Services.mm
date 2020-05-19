@@ -30,7 +30,7 @@
 <node CREATED="1588903255119" ID="ID_883669196" MODIFIED="1588903257666" TEXT="OPTIONS"/>
 <node CREATED="1588903258438" ID="ID_419793034" MODIFIED="1588903260179" TEXT="PATCH"/>
 </node>
-<node CREATED="1588904445353" FOLDED="true" ID="ID_610928156" MODIFIED="1588904657231" TEXT="Check what Methods are suported">
+<node CREATED="1588904445353" ID="ID_610928156" MODIFIED="1589320659154" TEXT="Check what Methods are suported">
 <node CREATED="1588904457820" ID="ID_140242659" MODIFIED="1588904459773" TEXT="OPTIONS"/>
 </node>
 <node CREATED="1588904657880" ID="ID_1180820277" MODIFIED="1588904750090" TEXT="Paginated Lists">
@@ -44,14 +44,14 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1588903008987" ID="ID_1914497146" MODIFIED="1588903102759" POSITION="right" TEXT="SOAP">
+<node CREATED="1588903008987" ID="ID_1914497146" MODIFIED="1589320567270" POSITION="right" TEXT="SOAP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(34, 34, 34)" face="DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, Proxima Nova, Helvetica Neue, Helvetica, Segoe UI, Nimbus Sans L, Liberation Sans, Open Sans, FreeSans, Arial, sans-serif" size="14.4px">Simple Object Access Protocol</font>
+      <font color="rgb(34, 34, 34)" face="DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, Proxima Nova, Helvetica Neue, Helvetica, Segoe UI, Nimbus Sans L, Liberation Sans, Open Sans, FreeSans, Arial, sans-serif">Simple Object Access Protocol</font>
     </p>
   </body>
 </html></richcontent>
@@ -182,7 +182,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1588904938264" FOLDED="true" ID="ID_1365220490" MODIFIED="1588979432926" POSITION="left" TEXT="HTTP STATUS CODES">
+<node CREATED="1588904938264" ID="ID_1365220490" MODIFIED="1589413813889" POSITION="left" TEXT="HTTP STATUS CODES">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -195,8 +195,7 @@
       <a href="https://httpstatuses.com/">https://httpstatuses.com/</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588904954087" ID="ID_557634670" MODIFIED="1588904986314" TEXT="200">
 <richcontent TYPE="NOTE"><html>
   <head>
