@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1588902982510" ID="ID_524102322" MODIFIED="1588903000700" TEXT="Web Services">
-<node CREATED="1588903002491" ID="ID_667084899" MODIFIED="1588903186881" POSITION="left" TEXT="REST">
+<node CREATED="1588903002491" ID="ID_667084899" MODIFIED="1591799087572" POSITION="left" TEXT="REST">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -22,7 +22,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1588903216064" ID="ID_719017240" MODIFIED="1588903225222" TEXT="Http Methods">
+<node CREATED="1588903216064" ID="ID_719017240" MODIFIED="1591799089752" TEXT="Http Methods">
 <node CREATED="1588903226497" ID="ID_1521452128" MODIFIED="1588903249377" TEXT="PUT"/>
 <node CREATED="1588903229398" ID="ID_658271444" MODIFIED="1588903245286" TEXT="POST"/>
 <node CREATED="1588903236660" ID="ID_1709565637" MODIFIED="1588903240192" TEXT="GET"/>
@@ -182,7 +182,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1588904938264" ID="ID_1365220490" MODIFIED="1589413813889" POSITION="left" TEXT="HTTP STATUS CODES">
+<node CREATED="1588904938264" ID="ID_1365220490" MODIFIED="1591799054239" POSITION="left" TEXT="HTTP STATUS CODES">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -195,7 +195,8 @@
       <a href="https://httpstatuses.com/">https://httpstatuses.com/</a>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1588904954087" ID="ID_557634670" MODIFIED="1588904986314" TEXT="200">
 <richcontent TYPE="NOTE"><html>
   <head>

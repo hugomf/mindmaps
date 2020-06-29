@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1589901748068" ID="ID_892155465" MODIFIED="1589902546668" TEXT="ITIL">
-<node CREATED="1589901793228" FOLDED="true" ID="ID_1662811823" MODIFIED="1589902054498" POSITION="right" TEXT="What is it?">
+<node CREATED="1589901793228" ID="ID_1662811823" MODIFIED="1591797645297" POSITION="right" TEXT="What is it?">
 <node CREATED="1589901809517" ID="ID_122650242" MODIFIED="1589902049972" TEXT="Information Technology Infraestructure Library">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -9,14 +9,14 @@
 <node CREATED="1589901847232" ID="ID_1703612327" MODIFIED="1589901974704" TEXT="Provides direction to an organization to use IT as a tool for changing"/>
 <node CREATED="1589901984114" ID="ID_1536515935" MODIFIED="1589902031825" TEXT="Enhances de overall performance of the business and deliver predicted service levels"/>
 </node>
-<node CREATED="1589902066694" FOLDED="true" ID="ID_4944809" MODIFIED="1589902204639" POSITION="right" TEXT="Benefits">
+<node CREATED="1589902066694" ID="ID_4944809" MODIFIED="1591797640617" POSITION="right" TEXT="Benefits">
 <node CREATED="1589902073621" ID="ID_1797098681" MODIFIED="1589902082534" TEXT="Alignment between IT and Business"/>
 <node CREATED="1589902085226" ID="ID_635102652" MODIFIED="1589902099479" TEXT="Focus on customer satisfaction though service delivery"/>
 <node CREATED="1589902104411" ID="ID_1898713802" MODIFIED="1589902151143" TEXT="Cost-Effective thruough better use of resources"/>
 <node CREATED="1589902158626" ID="ID_1366089528" MODIFIED="1589902177477" TEXT="Better managing of risk to the business &amp; service disruption"/>
 <node CREATED="1589902182436" ID="ID_965805478" MODIFIED="1589902192410" TEXT="Support constant and sudden business change"/>
 </node>
-<node CREATED="1589902208441" FOLDED="true" ID="ID_1117899551" MODIFIED="1589905470154" POSITION="right" TEXT="Service Desk">
+<node CREATED="1589902208441" ID="ID_1117899551" MODIFIED="1591797636178" POSITION="right" TEXT="Service Desk">
 <node CREATED="1589902217333" ID="ID_1603607688" MODIFIED="1589902512430" TEXT="Processes">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -27,8 +27,7 @@
       v4 see those as practices
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589902225302" ID="ID_370139643" MODIFIED="1589902231407" TEXT="Incident Management"/>
 <node CREATED="1589902231806" ID="ID_914260608" MODIFIED="1589902242151" TEXT="Request Fullfilment"/>
 <node CREATED="1589902247636" ID="ID_1977950789" MODIFIED="1589902250238" TEXT="Access Management"/>
@@ -41,7 +40,7 @@
 <node CREATED="1589905450695" ID="ID_1978165704" MODIFIED="1589905457134" TEXT="Incident Management Reporting"/>
 </node>
 </node>
-<node CREATED="1589901858304" FOLDED="true" ID="ID_1497657062" MODIFIED="1589913186590" POSITION="left" TEXT="Stages">
+<node CREATED="1589901858304" FOLDED="true" ID="ID_1497657062" MODIFIED="1590008468594" POSITION="left" TEXT="Stages">
 <node CREATED="1589901866000" ID="ID_34895995" MODIFIED="1589901870318" TEXT="Service Strategy"/>
 <node CREATED="1589901870777" ID="ID_323500408" MODIFIED="1589901873283" TEXT="Service Design"/>
 <node CREATED="1589901874100" ID="ID_447844629" MODIFIED="1589901878014" TEXT="Service Transition"/>
@@ -49,12 +48,12 @@
 <node CREATED="1589901884011" ID="ID_16855992" MODIFIED="1589901898234" TEXT="Continuous Service Improvement"/>
 </node>
 <node CREATED="1589902326359" ID="ID_1346578414" MODIFIED="1589913187536" POSITION="left" TEXT="Incident Management">
-<node CREATED="1589902338066" FOLDED="true" ID="ID_1332618010" MODIFIED="1589902408088" TEXT="Objectives">
+<node CREATED="1589902338066" FOLDED="true" ID="ID_1332618010" MODIFIED="1590776008530" TEXT="Objectives">
 <node CREATED="1589902388900" ID="ID_681990364" MODIFIED="1589902401826" TEXT="Ensure approved and regulatory methods are used for all processes"/>
 <node CREATED="1589902350767" ID="ID_1739080324" MODIFIED="1589902358115" TEXT="Report and resolve the incident"/>
 <node CREATED="1589902363338" ID="ID_542272125" MODIFIED="1589902374271" TEXT="Focus on user and customer satisfaction"/>
 </node>
-<node CREATED="1589902411446" FOLDED="true" ID="ID_28245468" MODIFIED="1589902541024" TEXT="How does it work?">
+<node CREATED="1589902411446" ID="ID_28245468" MODIFIED="1591797632590" TEXT="How does it work?">
 <node CREATED="1589902421035" ID="ID_1294372298" MODIFIED="1589902488610" TEXT="Records the Incident"/>
 <node CREATED="1589902434217" ID="ID_1543009351" MODIFIED="1589902447384" TEXT="Categorized them based on impact and urgency"/>
 <node CREATED="1589902451740" ID="ID_503053258" MODIFIED="1589902457896" TEXT="Authorization of the incident"/>
@@ -83,8 +82,7 @@
       Sign with the customer by giving them a target
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589902825576" ID="ID_442525938" MODIFIED="1589903198770" TEXT="Internal SLA">
 <richcontent TYPE="NOTE"><html>
@@ -99,8 +97,7 @@
       &#160;signed by other departments
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589902830317" ID="ID_1550142571" MODIFIED="1589903015285" TEXT="Vendor SLA">
 <richcontent TYPE="NOTE"><html>
@@ -112,8 +109,7 @@
       Signed by the supplier
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -127,8 +123,7 @@
       Problem meaning: an underline cause for one or more incidents
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589903045079" FOLDED="true" ID="ID_1807010149" MODIFIED="1589903639187" TEXT="Goal">
 <node CREATED="1589903070629" ID="ID_1259875989" MODIFIED="1589903085136" TEXT="Recognize and mitigate recurring incidents"/>
 <node CREATED="1589903054301" ID="ID_584176318" MODIFIED="1589903059788" TEXT="Identification of the Root Causes"/>
@@ -142,8 +137,7 @@
       addressing the cause, will eliminate the incident
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589903118497" FOLDED="true" ID="ID_1966890527" MODIFIED="1589904579821" TEXT="Main Steps">
@@ -157,8 +151,7 @@
       <font size="2">identify what kind of incident if it is a major incident, if its a recurent incident</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589903133385" ID="ID_1985340690" MODIFIED="1589903145264" TEXT="Categorization &amp; Priotization"/>
 <node CREATED="1589903146385" ID="ID_1556596979" MODIFIED="1589903579241" TEXT="Investigation of the root cause">
@@ -171,8 +164,7 @@
       if there is a permanent solution&#160;&#160;can be resolved, if not we consider a workaround
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589903154210" ID="ID_930039568" MODIFIED="1589903692079" TEXT="Workaround a solution"/>
 <node CREATED="1589903159691" ID="ID_378302680" MODIFIED="1589903696526" TEXT="Initiate a known error record">
@@ -185,8 +177,7 @@
       to record how to apply the workaround
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589903447681" ID="ID_660282194" MODIFIED="1589903448545" TEXT="Resolve the problem"/>
 <node CREATED="1589903381560" ID="ID_450918520" MODIFIED="1589903385432" TEXT="Close the Problem"/>
@@ -205,8 +196,7 @@
       it will capture in a known error database (documented)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589903756128" ID="ID_958693124" MODIFIED="1589904048961" TEXT="Error">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -217,8 +207,7 @@
       Is a defect in a system which it will result in some impact to the services
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589903966882" ID="ID_1206923074" MODIFIED="1589903970235" TEXT="Status"/>
 <node CREATED="1589903974384" ID="ID_1899353368" MODIFIED="1589903981737" TEXT="Error Description"/>
@@ -253,8 +242,7 @@
       Ensuring business continuos with the minimum services required and it is not impacted
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589903832964" ID="ID_1474657823" MODIFIED="1589903835564" TEXT="Objectives">
 <node CREATED="1589903840327" ID="ID_44860767" MODIFIED="1589904570784" TEXT="Resolve the risks involved">
 <richcontent TYPE="NOTE"><html>
@@ -266,8 +254,7 @@
       Business riks assesment analysis and business impact.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589903864315" ID="ID_11593354" MODIFIED="1589904427459" TEXT="Test backing out situations">
 <richcontent TYPE="NOTE"><html>
@@ -330,8 +317,7 @@
   <body>
     set of activities
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589905001758" ID="ID_244846517" MODIFIED="1589905298000" TEXT="will not be trigger until specific objective has to be achieved"/>
 <node CREATED="1589905055464" ID="ID_83818284" MODIFIED="1589905325240" TEXT="You don&apos;t need to have a business case for creating a process">
@@ -344,8 +330,7 @@
       Business case will have to be defined in a project or a service
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589905334111" ID="ID_694681613" MODIFIED="1589905347267" TEXT="Set of activities will happen inside of a project"/>
 </node>
@@ -369,8 +354,7 @@
       Evaluation of the entire process
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589905827325" ID="ID_1952932494" MODIFIED="1589905841171" TEXT="Evaluation and Analysis of the entire working process and solution"/>
 <node CREATED="1589905841599" ID="ID_628960122" MODIFIED="1589905912099" TEXT="Perform after the change request is put into effect to determine if the change and its implementation were successful"/>
 </node>
@@ -387,8 +371,7 @@
       Internet bandwidth
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589905939259" ID="ID_506114958" MODIFIED="1589905940934" TEXT="Objective"/>
 </node>
 </node>

@@ -18,8 +18,7 @@
     </p>
     <font size="2">.</font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589045275185" ID="ID_1388775660" MODIFIED="1589045278266" TEXT="Dictionary">
@@ -45,8 +44,7 @@
       <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" size="2">HashTable uses Enumerator to iterate through elements.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier"/>
 </node>
 </node>
@@ -140,8 +138,7 @@
       <font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif">You also use its contain method to check whether the object is already available in HashSet. HashSet can be used where you want to maintain a unique list.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1527093311787" ID="ID_1006402612" MODIFIED="1527095189305" TEXT="LinkedHashSet">
 <edge STYLE="bezier"/>
@@ -157,8 +154,7 @@
       <a href="https://javahungry.blogspot.com/2014/03/difference-between-hashset-and-treeset-similarities-and-example.html">https://javahungry.blogspot.com/2014/03/difference-between-hashset-and-treeset-similarities-and-example.html</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ccffff" CREATED="1527093341348" ID="ID_1618508252" MODIFIED="1527095065954" TEXT="SortedSet">
@@ -392,7 +388,7 @@
 <node CREATED="1526524105185" ID="ID_1113347080" MODIFIED="1526524107856" TEXT="Faster"/>
 </node>
 </node>
-<node CREATED="1526523523926" FOLDED="true" ID="ID_994276294" MODIFIED="1587247026843" POSITION="left" TEXT="Access Modifiers">
+<node CREATED="1526523523926" FOLDED="true" ID="ID_994276294" MODIFIED="1593396491355" POSITION="left" TEXT="Access Modifiers">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -489,7 +485,8 @@
       </tr>
     </table>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1526523529000" ID="ID_105319982" MODIFIED="1526523602328" TEXT="Private (class only)"/>
 <node CREATED="1526523532011" ID="ID_1978008599" MODIFIED="1586579226312" TEXT="Protected (class, subclass same and dif pkg  scope)"/>
