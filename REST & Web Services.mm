@@ -1,39 +1,50 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1588902982510" ID="ID_524102322" MODIFIED="1588903000700" TEXT="Web Services">
-<node CREATED="1588903002491" ID="ID_667084899" MODIFIED="1591799087572" POSITION="left" TEXT="REST">
+<node CREATED="1588902982510" ID="ID_524102322" MODIFIED="1593405420346" TEXT="Web Services">
+<node CREATED="1588903002491" ID="ID_667084899" MODIFIED="1593405596657" POSITION="left" TEXT="REST">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    Representational State Transfer
+    <font size="2">Representational State Transfer </font>
   </body>
-</html></richcontent>
-<node CREATED="1588903209595" ID="ID_1262391074" MODIFIED="1588903373342" TEXT="HATEOAS">
+</html>
+</richcontent>
+<node CREATED="1588903209595" ID="ID_1262391074" MODIFIED="1593405366948" TEXT="HATEOAS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="13px">HATEOAS stands for&#160;<b style="font-weight: bold; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(224, 224, 224)">Hypertext As The Engine Of Application State</b>. It means that hypertext should be used to find your way through the API</font>
+      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">HATEOAS stands for&#160;</font><font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="13px"><b style="font-weight: bold; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(224, 224, 224)">Hypertext As The Engine Of Application State</b></font><font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">. It means that hypertext should be used to find your way through the API</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1588903216064" ID="ID_719017240" MODIFIED="1591799089752" TEXT="Http Methods">
+<node CREATED="1588903216064" ID="ID_719017240" MODIFIED="1593405477763" TEXT="Http Methods">
 <node CREATED="1588903226497" ID="ID_1521452128" MODIFIED="1588903249377" TEXT="PUT"/>
 <node CREATED="1588903229398" ID="ID_658271444" MODIFIED="1588903245286" TEXT="POST"/>
 <node CREATED="1588903236660" ID="ID_1709565637" MODIFIED="1588903240192" TEXT="GET"/>
 <node CREATED="1588903252295" ID="ID_1454901208" MODIFIED="1588903254641" TEXT="DELETE"/>
-<node CREATED="1588903255119" ID="ID_883669196" MODIFIED="1588903257666" TEXT="OPTIONS"/>
+<node CREATED="1588903255119" ID="ID_883669196" MODIFIED="1593405528188" TEXT="OPTIONS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">Show supported methods</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1588903258438" ID="ID_419793034" MODIFIED="1588903260179" TEXT="PATCH"/>
 </node>
-<node CREATED="1588904445353" ID="ID_610928156" MODIFIED="1589320659154" TEXT="Check what Methods are suported">
-<node CREATED="1588904457820" ID="ID_140242659" MODIFIED="1588904459773" TEXT="OPTIONS"/>
-</node>
-<node CREATED="1588904657880" ID="ID_1180820277" MODIFIED="1588904750090" TEXT="Paginated Lists">
+<node CREATED="1588904657880" ID="ID_1180820277" MODIFIED="1593405490032" TEXT="Paginated Lists">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -41,47 +52,35 @@
   <body>
     Don't use custom pagination systems like adding a page number to the URL or query string. Instead, use link relations.
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-</node>
-<node CREATED="1588903008987" ID="ID_1914497146" MODIFIED="1589320567270" POSITION="right" TEXT="SOAP">
+<node CREATED="1588903439031" ID="ID_1237821334" MODIFIED="1593405414055" TEXT="idempotent and/or safe methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(34, 34, 34)" face="DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, Proxima Nova, Helvetica Neue, Helvetica, Segoe UI, Nimbus Sans L, Liberation Sans, Open Sans, FreeSans, Arial, sans-serif">Simple Object Access Protocol</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1588903439031" ID="ID_1237821334" MODIFIED="1588903936766" POSITION="right" TEXT="idempotent and/or safe methods">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif"><b>Safe Methods</b>&#160;</font>
+      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2"><b>Safe Methods</b>&#160;</font>
     </p>
     <p>
-      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif">Safe methods are HTTP methods that do not modify resources. For instance, using&#160;GET&#160;or&#160;HEAD&#160;on a resource URL, should NEVER change the resource. However, this is not completely true. It means: it won't change the resource representation. It is still possible, that safe methods do change things on a server or resource, but this should not reflect in a different representation.</font>
+      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">Safe methods are HTTP methods that do not modify resources. For instance, using&#160;GET&#160;or&#160;HEAD&#160;on a resource URL, should NEVER change the resource. However, this is not completely true. It means: it won't change the resource representation. It is still possible, that safe methods do change things on a server or resource, but this should not reflect in a different representation.</font>
     </p>
     <p>
       
     </p>
     <p>
-      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif">Safe methods are methods that can be cached, prefetched without any repercussions to the resource.</font>
+      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">Safe methods are methods that can be cached, prefetched without any repercussions to the resource.</font>
     </p>
     <p>
       
     </p>
     <p>
-      <b>Idempotent</b>
+      <b><font size="2">Idempotent</font></b>
     </p>
     <p>
-      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif">An idempotent HTTP method is a HTTP method that can be called many times without different outcomes. It would not matter if the method is called only once, or ten times over. The result should be the same. Again, this only applies to the result, not the resource itself. This still can be manipulated (like an update-timestamp, provided this information is not shared in the (current) resource representation </font>
+      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">An idempotent HTTP method is a HTTP method that can be called many times without different outcomes. It would not matter if the method is called only once, or ten times over. The result should be the same. Again, this only applies to the result, not the resource itself. This still can be manipulated (like an <i>update-timestamp</i>, provided this information is not shared in the (current) resource representation </font>
     </p>
     <p>
       
@@ -182,7 +181,26 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1588904938264" ID="ID_1365220490" MODIFIED="1591799054239" POSITION="left" TEXT="HTTP STATUS CODES">
+<node CREATED="1593405597880" ID="ID_1145160752" MODIFIED="1593405602426" TEXT="Authentication Methods">
+<node CREATED="1593405603495" ID="ID_313938701" MODIFIED="1593405605239" TEXT="HTTP Basic Authentication"/>
+<node CREATED="1593405614721" ID="ID_1885613859" MODIFIED="1593405619181" TEXT="API Keys"/>
+<node CREATED="1593405624206" ID="ID_489471219" MODIFIED="1593405625398" TEXT="OAuth"/>
+</node>
+</node>
+<node CREATED="1588903008987" ID="ID_1914497146" MODIFIED="1593405386892" POSITION="right" TEXT="SOAP">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(34, 34, 34)" face="DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, Proxima Nova, Helvetica Neue, Helvetica, Segoe UI, Nimbus Sans L, Liberation Sans, Open Sans, FreeSans, Arial, sans-serif" size="2">Simple Object Access Protocol</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588904938264" FOLDED="true" ID="ID_1365220490" MODIFIED="1593405441585" POSITION="right" TEXT="HTTP STATUS CODES">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -195,8 +213,7 @@
       <a href="https://httpstatuses.com/">https://httpstatuses.com/</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588904954087" ID="ID_557634670" MODIFIED="1588904986314" TEXT="200">
 <richcontent TYPE="NOTE"><html>
   <head>
