@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1593396606348" ID="ID_724703620" MODIFIED="1593399228120" TEXT="Network">
-<node CREATED="1593396623302" FOLDED="true" ID="ID_809754782" MODIFIED="1593400945501" POSITION="right" TEXT="NAT">
+<node CREATED="1593396623302" ID="ID_809754782" MODIFIED="1593404634721" POSITION="right" TEXT="NAT">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -29,8 +29,7 @@
       <font size="2">hosts' internal IP addresses are hidden</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1593396626833" ID="ID_53826496" MODIFIED="1593397105491" TEXT="SNAT">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -58,8 +57,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593396662982" ID="ID_433369754" MODIFIED="1593398755426" TEXT="DNAT">
 <richcontent TYPE="NOTE"><html>
@@ -80,8 +78,7 @@
       <font size="2">Deals with outcoming traffic </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593396675617" ID="ID_659023006" MODIFIED="1593399206428" TEXT="PAT">
 <richcontent TYPE="NOTE"><html>
@@ -109,8 +106,7 @@
       <font size="2">making each connection unique, returning traffic is translated back from the nat table and send it back to the internal host.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593396696288" ID="ID_1764701438" MODIFIED="1593399017948" TEXT="Port Forwarding">
 <richcontent TYPE="NOTE"><html>
@@ -146,11 +142,10 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1593400928211" ID="ID_81384167" MODIFIED="1593401133053" POSITION="left" TEXT="OSI Model">
+<node CREATED="1593400928211" FOLDED="true" ID="ID_81384167" MODIFIED="1593404638545" POSITION="left" TEXT="OSI Model">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -160,8 +155,7 @@
       <b>A</b>ll <b>P</b>eople <b>S</b>eem <b>T</b>o<b>&#160;N</b>eed&#160; <b>D</b>omino <b>P</b>izza (mnemonics to memorize it)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1593400961271" ID="ID_602920918" MODIFIED="1593401392682" TEXT="Application">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -175,8 +169,7 @@
       <font size="2">which facilitates communications between you application and your operating system</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593400967398" ID="ID_1589162583" MODIFIED="1593401652445" TEXT="Presentation">
 <richcontent TYPE="NOTE"><html>
@@ -200,8 +193,7 @@
       <font size="2">Data conversion, data encryption and data compression.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593400975011" ID="ID_1343034446" MODIFIED="1593401673245" TEXT="Session">
 <richcontent TYPE="NOTE"><html>
@@ -213,8 +205,7 @@
       <font size="2">Establish, manage and terminate connections between the sender and receiver </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593400977347" ID="ID_139190951" MODIFIED="1593402301788" TEXT="Transport">
 <richcontent TYPE="NOTE"><html>
@@ -235,8 +226,7 @@
       <font size="2">The main protocols here: tcp and udp </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593400982035" ID="ID_609149961" MODIFIED="1593402461009" TEXT="Network">
 <richcontent TYPE="NOTE"><html>
@@ -251,10 +241,9 @@
       <font size="2">that contains source and destination ip addresses an creates packets</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1593400986833" ID="ID_382595618" MODIFIED="1593404433603" TEXT="Data Link">
+<node CREATED="1593400986833" ID="ID_382595618" MODIFIED="1593404630472" TEXT="Data Link">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -291,8 +280,7 @@
       <br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="attach"/>
 <node CREATED="1593403028231" ID="ID_1989512448" MODIFIED="1593403041273" TEXT="NIC">
 <richcontent TYPE="NOTE"><html>
@@ -304,8 +292,7 @@
       <font size="2"><b>Network Interface Card</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593403044433" ID="ID_35362612" MODIFIED="1593403219580" TEXT="MAC">
 <richcontent TYPE="NOTE"><html>
@@ -333,8 +320,7 @@
       <font size="2">and controls shared access to a resource. For example, control of TDMA operation.</font><br /><br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593403084826" ID="ID_924768892" MODIFIED="1593403442105" TEXT="LLC">
 <richcontent TYPE="NOTE"><html>
@@ -355,8 +341,7 @@
       <font size="2">The data link layer combines data bits into entities called <b>frames</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1593403897293" ID="ID_992492780" MODIFIED="1593403935494" TEXT="CRC">
 <richcontent TYPE="NOTE"><html>
@@ -371,8 +356,7 @@
       <font size="2">The most common error checking used in packets</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1593400989778" ID="ID_808768820" MODIFIED="1593403893730" TEXT="Physical">
@@ -388,11 +372,10 @@
       <font size="2">face bits are electrical impulses or light, these travels along to the receiver.&#160; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1593399232091" FOLDED="true" ID="ID_813918344" MODIFIED="1593400936317" POSITION="right" TEXT="ARP">
+<node CREATED="1593399232091" ID="ID_813918344" MODIFIED="1593404637144" POSITION="right" TEXT="ARP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
