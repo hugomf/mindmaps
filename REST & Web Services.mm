@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1588902982510" ID="ID_524102322" MODIFIED="1593405420346" TEXT="Web Services">
-<node CREATED="1588903002491" ID="ID_667084899" MODIFIED="1593405596657" POSITION="left" TEXT="REST">
+<node CREATED="1588902982510" ID="ID_524102322" MODIFIED="1619128401820" TEXT="Web Services">
+<node CREATED="1588903002491" ID="ID_667084899" MODIFIED="1619128077924" POSITION="left" TEXT="REST">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9,8 +9,7 @@
   <body>
     <font size="2">Representational State Transfer </font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588903209595" ID="ID_1262391074" MODIFIED="1593405366948" TEXT="HATEOAS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -21,10 +20,9 @@
       <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">HATEOAS stands for&#160;</font><font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="13px"><b style="font-weight: bold; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(224, 224, 224)">Hypertext As The Engine Of Application State</b></font><font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="2">. It means that hypertext should be used to find your way through the API</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1588903216064" ID="ID_719017240" MODIFIED="1593405477763" TEXT="Http Methods">
+<node CREATED="1588903216064" ID="ID_719017240" MODIFIED="1619127972147" TEXT="Http Methods">
 <node CREATED="1588903226497" ID="ID_1521452128" MODIFIED="1588903249377" TEXT="PUT"/>
 <node CREATED="1588903229398" ID="ID_658271444" MODIFIED="1588903245286" TEXT="POST"/>
 <node CREATED="1588903236660" ID="ID_1709565637" MODIFIED="1588903240192" TEXT="GET"/>
@@ -39,8 +37,7 @@
       <font size="2">Show supported methods</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588903258438" ID="ID_419793034" MODIFIED="1588903260179" TEXT="PATCH"/>
 </node>
@@ -52,8 +49,7 @@
   <body>
     Don't use custom pagination systems like adding a page number to the URL or query string. Instead, use link relations.
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588903439031" ID="ID_1237821334" MODIFIED="1593405414055" TEXT="idempotent and/or safe methods">
 <richcontent TYPE="NOTE"><html>
@@ -180,6 +176,18 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1619128404746" ID="ID_1972250271" MODIFIED="1619128415879" TEXT="Idempotent">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="16px" face="arial, sans-serif" color="rgb(32, 33, 36)"><span style="font-style: normal; font-weight: 400; font-size: 16px; float: none; text-align: left; color: rgb(32, 33, 36); word-spacing: 0px; display: inline !important; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-family: arial, sans-serif" charset="utf-8">An</span><span>&#160;</span><b style="font-style: normal; font-size: 16px; text-align: left; color: rgb(32, 33, 36); word-spacing: 0px; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-family: arial, sans-serif">idempotent</b><span>&#160;</span><span style="font-style: normal; font-weight: 400; font-size: 16px; float: none; text-align: left; color: rgb(32, 33, 36); word-spacing: 0px; display: inline !important; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-family: arial, sans-serif">operation is an operation, action, or request that can be applied multiple times without changing the result</span></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1593405597880" ID="ID_1145160752" MODIFIED="1593405602426" TEXT="Authentication Methods">
 <node CREATED="1593405603495" ID="ID_313938701" MODIFIED="1593405605239" TEXT="HTTP Basic Authentication"/>
@@ -197,10 +205,9 @@
       <font color="rgb(34, 34, 34)" face="DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, Proxima Nova, Helvetica Neue, Helvetica, Segoe UI, Nimbus Sans L, Liberation Sans, Open Sans, FreeSans, Arial, sans-serif" size="2">Simple Object Access Protocol</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1588904938264" FOLDED="true" ID="ID_1365220490" MODIFIED="1593405441585" POSITION="right" TEXT="HTTP STATUS CODES">
+<node CREATED="1588904938264" ID="ID_1365220490" MODIFIED="1619128422883" POSITION="right" TEXT="HTTP STATUS CODES">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -213,7 +220,8 @@
       <a href="https://httpstatuses.com/">https://httpstatuses.com/</a>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1588904954087" ID="ID_557634670" MODIFIED="1588904986314" TEXT="200">
 <richcontent TYPE="NOTE"><html>
   <head>
