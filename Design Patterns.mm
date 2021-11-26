@@ -56,7 +56,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587275123997" FOLDED="true" ID="ID_1208957022" MODIFIED="1588783223898" TEXT="To modify an Algorithm">
+<node CREATED="1587275123997" FOLDED="true" ID="ID_1208957022" MODIFIED="1619541626863" TEXT="To modify an Algorithm">
 <node CREATED="1587275134150" ID="ID_1375012737" MODIFIED="1587275320838" TEXT="Template &amp; Strategy">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -99,8 +99,7 @@
       <font size="2">By doing so, these patterns increase flexibility in carrying out this communication. </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587274296273" ID="ID_170031968" MODIFIED="1587274301144" TEXT="Chain of responsability"/>
 <node CREATED="1587274302716" ID="ID_200500557" MODIFIED="1587274304393" TEXT="Command"/>
 <node CREATED="1587274305677" ID="ID_1187621729" MODIFIED="1587274307881" TEXT="Interpreter"/>

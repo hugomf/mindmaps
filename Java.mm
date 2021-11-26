@@ -112,13 +112,17 @@
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffff" CREATED="1527090506039" ID="ID_1724414852" MODIFIED="1588783732664" TEXT="Set">
+<node BACKGROUND_COLOR="#ccffff" CREATED="1527090506039" ID="ID_1724414852" MODIFIED="1619541790763" TEXT="Set">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     List&#160;is an ordered sequence of elements whereas&#160;Set&#160;is a distinct list of elements which is unordered
+
+    <p>
+      <font face="arial, sans-serif" size="14px" color="rgb(32, 33, 36)"><span style="text-transform: none; letter-spacing: normal; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0px; display: inline !important; font-family: arial, sans-serif; font-weight: 400; font-style: normal; float: none; text-align: left; font-size: 14px; word-spacing: 0px; color: rgb(32, 33, 36)" charset="utf-8">We can't store duplicate elements in</span><span>&#160;</span><b style="text-transform: none; letter-spacing: normal; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0px; font-family: arial, sans-serif; font-style: normal; text-align: left; font-size: 14px; word-spacing: 0px; color: rgb(32, 33, 36)">Set</b></font>
+    </p>
   </body>
 </html></richcontent>
 <edge STYLE="bezier"/>
@@ -374,9 +378,49 @@
 </node>
 </node>
 </node>
-<node CREATED="1527097938742" FOLDED="true" ID="ID_611911516" MODIFIED="1588788107525" POSITION="right" TEXT="Java Strings">
+<node CREATED="1527097938742" ID="ID_611911516" MODIFIED="1619715290286" POSITION="right" TEXT="Java Strings">
 <node CREATED="1526524012021" ID="ID_272565584" MODIFIED="1527095065955" TEXT="String">
 <edge STYLE="bezier"/>
+<node CREATED="1619715584133" ID="ID_22636599" MODIFIED="1619715589420" TEXT="Strings are immutable"/>
+<node CREATED="1619715296995" ID="ID_1817649487" MODIFIED="1619715874637" TEXT="String literals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="1">String literals are automatically &quot;interned&quot; </font>
+    </p>
+    <p>
+      <font size="1">String s1 = &quot;hola&quot; </font>
+    </p>
+    <p>
+      <font size="1">String s2 = &quot;hola&quot; </font>
+    </p>
+    <p>
+      <font size="1">s1 == s2&#160;&#160;&#160;&#160;// is true because there are both point to the same memory reference (interned) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="1">Have their own special area of the heap memory called the String pool </font>
+    </p>
+    <p>
+      <font size="1">Any assignment on the literal will refer&#160;to the same String in this pool. </font>
+    </p>
+    <p>
+      <font size="1">you can force a string to be added to the pool by using intern() method on the String object. </font>
+    </p>
+    <p>
+      <font size="1">strings are immutable so any method applied to the string will create a new String object. </font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1526524022948" FOLDED="true" ID="ID_1882695003" MODIFIED="1587270539273" TEXT="StringBuffer">
 <edge STYLE="bezier"/>
@@ -485,8 +529,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier"/>
 <node CREATED="1526523529000" ID="ID_105319982" MODIFIED="1526523602328" TEXT="Private (class only)"/>
 <node CREATED="1526523532011" ID="ID_1978008599" MODIFIED="1586579226312" TEXT="Protected (class, subclass same and dif pkg  scope)"/>

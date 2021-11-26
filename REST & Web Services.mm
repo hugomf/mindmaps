@@ -41,7 +41,7 @@
 </node>
 <node CREATED="1588903258438" ID="ID_419793034" MODIFIED="1588903260179" TEXT="PATCH"/>
 </node>
-<node CREATED="1588904657880" ID="ID_1180820277" MODIFIED="1593405490032" TEXT="Paginated Lists">
+<node CREATED="1588904657880" ID="ID_1180820277" MODIFIED="1637350377076" TEXT="Paginated Lists">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -49,9 +49,10 @@
   <body>
     Don't use custom pagination systems like adding a page number to the URL or query string. Instead, use link relations.
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1588903439031" ID="ID_1237821334" MODIFIED="1593405414055" TEXT="idempotent and/or safe methods">
+<node CREATED="1588903439031" FOLDED="true" ID="ID_1237821334" MODIFIED="1634919591744" TEXT="idempotent and/or safe methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -176,14 +177,14 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1619128404746" ID="ID_1972250271" MODIFIED="1619128415879" TEXT="Idempotent">
+<node CREATED="1619128404746" ID="ID_1972250271" MODIFIED="1622582793337" TEXT="Idempotent">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="16px" face="arial, sans-serif" color="rgb(32, 33, 36)"><span style="font-style: normal; font-weight: 400; font-size: 16px; float: none; text-align: left; color: rgb(32, 33, 36); word-spacing: 0px; display: inline !important; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-family: arial, sans-serif" charset="utf-8">An</span><span>&#160;</span><b style="font-style: normal; font-size: 16px; text-align: left; color: rgb(32, 33, 36); word-spacing: 0px; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-family: arial, sans-serif">idempotent</b><span>&#160;</span><span style="font-style: normal; font-weight: 400; font-size: 16px; float: none; text-align: left; color: rgb(32, 33, 36); word-spacing: 0px; display: inline !important; text-indent: 0px; text-transform: none; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; font-family: arial, sans-serif">operation is an operation, action, or request that can be applied multiple times without changing the result</span></font>
+      <font face="arial, sans-serif" color="rgb(32, 33, 36)" size="16px">An</font><font face="arial, sans-serif" color="rgb(32, 33, 36)">&#160;</font><b style="color: rgb(32, 33, 36); word-spacing: 0px; font-family: arial, sans-serif; font-size: 16px; white-space: normal; letter-spacing: normal; text-align: left; text-transform: none; font-style: normal; background-color: rgb(255, 255, 255); text-indent: 0px"><font face="arial, sans-serif" color="rgb(32, 33, 36)" size="16px">idempotent</font></b><font face="arial, sans-serif" color="rgb(32, 33, 36)">&#160;</font><font face="arial, sans-serif" color="rgb(32, 33, 36)" size="16px">operation is an operation, action, or request that can be applied multiple times without changing the result</font>
     </p>
   </body>
 </html></richcontent>
@@ -220,9 +221,8 @@
       <a href="https://httpstatuses.com/">https://httpstatuses.com/</a>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1588904954087" ID="ID_557634670" MODIFIED="1588904986314" TEXT="200">
+</html></richcontent>
+<node CREATED="1588904954087" ID="ID_557634670" MODIFIED="1628715509658" TEXT="200">
 <richcontent TYPE="NOTE"><html>
   <head>
     

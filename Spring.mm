@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1588899265122" ID="ID_1742074987" MODIFIED="1588899270366" TEXT="Spring">
-<node CREATED="1588899823109" FOLDED="true" ID="ID_1059910865" MODIFIED="1588901833175" POSITION="left" TEXT="Bean Scopes">
+<node CREATED="1588899265122" ID="ID_1742074987" MODIFIED="1628545431867" TEXT="Spring">
+<node CREATED="1588899823109" ID="ID_1059910865" MODIFIED="1622583128492" POSITION="left" TEXT="Bean Scopes">
 <node CREATED="1588899834384" ID="ID_28764858" MODIFIED="1588899923444" TEXT="Singleton">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -15,8 +15,7 @@
       <font color="rgb(39, 39, 39)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">This single instance is stored in a cache of such&#160;</font><a href="https://howtodoinjava.com/design-patterns/creational/singleton-design-pattern-in-java/" style="color: rgb(3, 102, 214); text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="rgb(3, 102, 214)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">singleton</font></a><font color="rgb(39, 39, 39)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">&#160;beans, and all subsequent requests and references for that named bean return the cached instance.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588899838576" ID="ID_141481764" MODIFIED="1588899841559" TEXT="Prototype"/>
 <node CREATED="1588899843125" ID="ID_1455023874" MODIFIED="1588899845548" TEXT="request"/>
@@ -31,8 +30,7 @@
   <body>
     Spring also provide a non-default thread scope using class SimpleThreadScope. To use this scope, you must use register it to container using CustomScopeConfigurer class.
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588900500915" FOLDED="true" ID="ID_1923538297" MODIFIED="1588900953757" POSITION="right" TEXT="Application Context Implementations">
@@ -40,7 +38,7 @@
 <node CREATED="1588900528672" ID="ID_1735615846" MODIFIED="1588900529452" TEXT="FileSystemXmlApplicationContext "/>
 <node CREATED="1588900534352" ID="ID_600389614" MODIFIED="1588900535340" TEXT="XmlWebApplicationContext "/>
 </node>
-<node CREATED="1588900770660" FOLDED="true" ID="ID_1749996948" MODIFIED="1588901829253" POSITION="left" TEXT="BeanFactory">
+<node CREATED="1588900770660" ID="ID_1749996948" MODIFIED="1622583137415" POSITION="left" TEXT="BeanFactory">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -50,8 +48,7 @@
       <font color="rgb(39, 39, 39)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol" size="16px">responsible for managing the life cycle of beans created through spring container.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588900799459" ID="ID_1481468467" MODIFIED="1588900800879" TEXT="XmlBeanFactory"/>
 <node CREATED="1588900814745" ID="ID_1694618641" MODIFIED="1588900816492" TEXT="XmlWebApplicationContext"/>
 <node CREATED="1588901277995" ID="ID_139432611" MODIFIED="1588901350287" TEXT="LifeCycle">
@@ -62,8 +59,7 @@
   <body>
     When container starts &#8211; a Spring bean needs to be instantiated, based on Java or XML bean definition. It may also be required to perform some post-initialization steps to get it into a usable state. Same bean life cycle is for spring boot applications as well. After that, when the bean is no longer required, it will be removed from the IoC container.
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588901378278" ID="ID_1975290966" MODIFIED="1588901634768" TEXT="Life cycle callbacks">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -74,18 +70,17 @@
       https://howtodoinjava.com/wp-content/uploads/Spring-bean-life-cycle.png
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1588900910642" FOLDED="true" ID="ID_692770143" MODIFIED="1588901838606" POSITION="right" TEXT="Dependency Injection Types">
+<node CREATED="1588900910642" ID="ID_692770143" MODIFIED="1628545425617" POSITION="right" TEXT="Dependency Injection Types">
 <node CREATED="1588900916658" ID="ID_524543712" MODIFIED="1588900941078" TEXT="Constructor Injection"/>
 <node CREATED="1588900919276" ID="ID_422925919" MODIFIED="1588900947248" TEXT="Setter Injection"/>
 <node CREATED="1588900922046" ID="ID_1711129401" MODIFIED="1588900951753" TEXT="Interface Injection"/>
 </node>
-<node CREATED="1588899289207" FOLDED="true" ID="ID_454923272" MODIFIED="1588900960400" POSITION="left" TEXT="Stereotypes">
-<node CREATED="1588899303615" FOLDED="true" ID="ID_1199372728" MODIFIED="1588900958713" TEXT="@Component">
+<node CREATED="1588899289207" ID="ID_454923272" MODIFIED="1622583140386" POSITION="left" TEXT="Stereotypes">
+<node CREATED="1588899303615" ID="ID_1199372728" MODIFIED="1628545430681" TEXT="@Component">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -133,8 +128,7 @@
       Not autowiring at all, references must be define via a ref element.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588901856242" ID="ID_526443054" MODIFIED="1588901976642" TEXT="ByName">
 <richcontent TYPE="NOTE"><html>
@@ -146,8 +140,7 @@
       Autowiring by property name will look for a bean named exaclty the same as the property which needs to be autowired
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588901859025" ID="ID_751547215" MODIFIED="1588902036498" TEXT="ByType">
 <richcontent TYPE="NOTE"><html>
@@ -159,8 +152,7 @@
       Allows a property to be autowired if there is exactly one of the property type in the container, if there is more than one, a fatal exception will be thrown.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588901866286" ID="ID_232009184" MODIFIED="1588902081433" TEXT="Constructor">
 <richcontent TYPE="NOTE"><html>
@@ -172,14 +164,17 @@
       This is analogous to the byType but applies to constructor arguments.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588902114071" ID="ID_162380436" MODIFIED="1588902200501" TEXT="Defaul Mode">
 <node CREATED="1588902120134" ID="ID_1898095830" MODIFIED="1588902161069" TEXT="InXml is No"/>
 <node CREATED="1588902139273" ID="ID_787031389" MODIFIED="1588902172731" TEXT="In Java is byType"/>
 </node>
+</node>
+<node CREATED="1628545433183" ID="ID_1550821155" MODIFIED="1628545437930" POSITION="right" TEXT="Lifecycle">
+<node CREATED="1628545438481" ID="ID_1566173387" MODIFIED="1628545442930" TEXT="@PreDestroy"/>
+<node CREATED="1628545443462" ID="ID_342602084" MODIFIED="1628545446809" TEXT="@PostConstruct"/>
 </node>
 </node>
 </map>

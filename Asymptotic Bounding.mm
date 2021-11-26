@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1619193254549" ID="ID_1521203633" MODIFIED="1619195248600" TEXT="Asymptotic Bounding">
+<node CREATED="1619193254549" ID="ID_1521203633" MODIFIED="1619196606651" TEXT="Asymptotic Bounding">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -38,8 +38,7 @@
       It's not about constants but behaviour O(2n) =&gt; O(n)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1619194101708" ID="ID_83736806" MODIFIED="1619194109622" TEXT="Linear Behaviour"/>
 </node>
 <node CREATED="1619194115258" ID="ID_132913612" MODIFIED="1619194278887" TEXT="O(log(n))"/>
@@ -53,8 +52,7 @@
       Constant time
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -68,8 +66,7 @@
       Lowest amount of work (the fastest we can go)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1619193699280" ID="ID_1186953659" MODIFIED="1619193702708" TEXT="Lower Bound"/>
 </node>
 <node CREATED="1619193516721" ID="ID_1117607407" MODIFIED="1619193544422" POSITION="left" TEXT="Big Theta"/>
@@ -89,8 +86,7 @@
       Space Complexity = InputSize + AuxilliarySpace
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1619194874492" ID="ID_1280573905" MODIFIED="1619195005069" TEXT="Big O (Asymptotic)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -101,8 +97,7 @@
       N will represent the units in size of bits to represent the input
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -14,13 +14,13 @@
 </node>
 </node>
 <node CREATED="1590371071996" ID="ID_1614956498" MODIFIED="1590371075005" POSITION="left" TEXT="React">
-<node CREATED="1591802068777" ID="ID_892832673" MODIFIED="1591802114831" TEXT="two way data binding">
+<node CREATED="1591802068777" ID="ID_892832673" MODIFIED="1628726174942" TEXT="two way data binding">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <ul style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0; margin-left: 0; list-style-position: outside; list-style-image: none; color: black; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif; font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+    <ul style="padding-right: 0px; font-size: 18px; background-color: rgb(255, 255, 255); text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: start; margin-bottom: 0; list-style-image: none; margin-right: 0px; padding-top: 0px; text-transform: none; list-style-position: outside; margin-top: 0px; color: black; font-style: normal; font-weight: 400; margin-left: 0; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif; white-space: normal">
       <li style="margin-bottom: 0; margin-top: 0px; padding-left: 0px">
         The data we changed in the view has updated the state.
       </li>
@@ -28,13 +28,10 @@
         The data in the state has updated the view
       </li>
     </ul>
-    <p>
-      
-    </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591802114800" ID="ID_46833985" MODIFIED="1591802418752" TEXT="Hooks">
+<node CREATED="1591802114800" ID="ID_46833985" MODIFIED="1628726174940" TEXT="Hooks">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -44,57 +41,57 @@
       <font size="2">let you use state and other React features without writing a class. </font>
     </p>
     <p>
-      <font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">Hooks are functions that let you &#8220;hook into&#8221; React state and lifecycle features from function components</font>
+      <font color="rgb(0, 0, 0)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">Hooks are functions that let you &#8220;hook into&#8221; React state and lifecycle features from function components</font>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591802202222" ID="ID_1338004271" MODIFIED="1591802309915" TEXT="state Hook">
+<node CREATED="1591802202222" ID="ID_1338004271" MODIFIED="1628726174939" TEXT="state Hook">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">We call it inside a function component to add some local state to it. React will preserve this state between re-renders</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1591802211741" ID="ID_1385823911" MODIFIED="1591802251619" TEXT="effect Hook">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="17px">It serves the same purpose as&#160;</font><code class="gatsby-code-text" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 3px; padding-left: 3px; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; font-size: 0.94em; background-position: 229, 100,; background-image: null; background-repeat: repeat; background-attachment: scroll; color: rgb(26, 26, 26); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" size="0.94em" color="rgb(26, 26, 26)">componentDidMount</font></code><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="17px">,&#160;</font><code class="gatsby-code-text" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 3px; padding-left: 3px; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; font-size: 0.94em; background-position: 229, 100,; background-image: null; background-repeat: repeat; background-attachment: scroll; color: rgb(26, 26, 26); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" size="0.94em" color="rgb(26, 26, 26)">componentDidUpdate</font></code><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="17px">, and&#160;</font><code class="gatsby-code-text" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 3px; padding-left: 3px; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; font-size: 0.94em; background-position: 229, 100,; background-image: null; background-repeat: repeat; background-attachment: scroll; color: rgb(26, 26, 26); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" size="0.94em" color="rgb(26, 26, 26)">componentWillUnmount</font></code><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="17px">&#160;in React classes, but unified into a single API.</font>
+      <font color="rgb(0, 0, 0)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">We call it inside a function component to add some local state to it. React will preserve this state between re-renders</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591802543609" ID="ID_919406795" MODIFIED="1591802577239" TEXT="useContext hook">
+<node CREATED="1591802211741" ID="ID_1385823911" MODIFIED="1628726174937" TEXT="effect Hook">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <a href="https://reactjs.org/docs/hooks-reference.html#usecontext" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(26, 26, 26); text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(26, 26, 26)" face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" size="2"><code class="gatsby-code-text" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 3px; padding-left: 3px; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; font-size: 0.94em">useContext</code></font></a><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">&#160;lets you subscribe to React context without introducing nesting</font>
+      <font color="rgb(0, 0, 0)" size="17px" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">It serves the same purpose as&#160;</font><font color="rgb(26, 26, 26)" size="0.94em" face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"><code style="font-weight: 400; text-align: start; background-repeat: repeat; background-image: null; text-transform: none; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; background-attachment: scroll; margin-left: 0px; padding-top: 0px; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px; font-style: normal; background-position: 229, 100,; padding-left: 3px; margin-bottom: 0px; text-indent: 0px; font-size: 0.94em; color: rgb(26, 26, 26); margin-right: 0px; margin-top: 0px; padding-right: 3px; white-space: normal" class="gatsby-code-text">componentDidMount</code></font><font color="rgb(0, 0, 0)" size="17px" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">,&#160;</font><font color="rgb(26, 26, 26)" size="0.94em" face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"><code style="font-weight: 400; text-align: start; background-repeat: repeat; background-image: null; text-transform: none; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; background-attachment: scroll; margin-left: 0px; padding-top: 0px; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px; font-style: normal; background-position: 229, 100,; padding-left: 3px; margin-bottom: 0px; text-indent: 0px; font-size: 0.94em; color: rgb(26, 26, 26); margin-right: 0px; margin-top: 0px; padding-right: 3px; white-space: normal" class="gatsby-code-text">componentDidUpdate</code></font><font color="rgb(0, 0, 0)" size="17px" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">, and&#160;</font><font color="rgb(26, 26, 26)" size="0.94em" face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"><code style="font-weight: 400; text-align: start; background-repeat: repeat; background-image: null; text-transform: none; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; background-attachment: scroll; margin-left: 0px; padding-top: 0px; letter-spacing: normal; word-spacing: 0px; padding-bottom: 0px; font-style: normal; background-position: 229, 100,; padding-left: 3px; margin-bottom: 0px; text-indent: 0px; font-size: 0.94em; color: rgb(26, 26, 26); margin-right: 0px; margin-top: 0px; padding-right: 3px; white-space: normal" class="gatsby-code-text">componentWillUnmount</code></font><font color="rgb(0, 0, 0)" size="17px" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">&#160;in React classes, but unified into a single API.</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591802418754" ID="ID_986596980" MODIFIED="1591802481567" TEXT="Rules">
+<node CREATED="1591802543609" ID="ID_919406795" MODIFIED="1628726174935" TEXT="useContext hook">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">We provide a&#160;</font><a href="https://www.npmjs.com/package/eslint-plugin-react-hooks" target="_blank" rel="nofollow noopener noreferrer" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(26, 26, 26); text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: 17px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(26, 26, 26)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">linter plugin</font></a><font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">&#160;to enforce these rules automatically. </font>
+      <a href="https://reactjs.org/docs/hooks-reference.html#usecontext" style="padding-right: 0px; font-size: 17px; text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: start; margin-bottom: 0px; margin-right: 0px; padding-top: 0px; text-transform: none; margin-top: 0px; color: rgb(26, 26, 26); font-style: normal; font-weight: 400; text-decoration: none; margin-left: 0px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; white-space: normal"><font color="rgb(26, 26, 26)" size="0.94em" face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace"><code style="padding-right: 3px; font-size: 0.94em; padding-left: 3px; padding-bottom: 0px; margin-bottom: 0px; margin-right: 0px; padding-top: 0px; margin-top: 0px; font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; margin-left: 0px" class="gatsby-code-text">useContext</code></font></a><font color="rgb(0, 0, 0)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">&#160;lets you subscribe to React context without introducing nesting</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591802418754" ID="ID_986596980" MODIFIED="1628726174933" TEXT="Rules">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 0, 0)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">We provide a&#160;</font><font color="rgb(26, 26, 26)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif"><a target="_blank" style="padding-right: 0px; font-size: 17px; text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: start; margin-bottom: 0px; margin-right: 0px; padding-top: 0px; text-transform: none; margin-top: 0px; color: rgb(26, 26, 26); font-style: normal; font-weight: 400; text-decoration: none; margin-left: 0px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; white-space: normal" rel="nofollow noopener noreferrer" href="https://www.npmjs.com/package/eslint-plugin-react-hooks">linter plugin</a></font><font color="rgb(0, 0, 0)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">&#160;to enforce these rules automatically. </font>
     </p>
     <p>
-      <font color="rgb(0, 0, 0)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="2">We understand these rules might seem limiting or confusing at first, but they are essential to making Hooks work well</font>
+      <font color="rgb(0, 0, 0)" size="2" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif">We understand these rules might seem limiting or confusing at first, but they are essential to making Hooks work well</font>
     </p>
   </body>
 </html></richcontent>
@@ -103,17 +100,72 @@
 </node>
 </node>
 </node>
-<node CREATED="1590371077832" ID="ID_630706781" MODIFIED="1590371082887" POSITION="right" TEXT="Vanilla"/>
-<node CREATED="1591150938457" ID="ID_635509726" MODIFIED="1591152953415" POSITION="left" TEXT="NodeJS">
-<node CREATED="1591150976164" ID="ID_936025445" MODIFIED="1591150983727" TEXT="Bundled with REPL Environment">
-<node CREATED="1591150943345" ID="ID_673369431" MODIFIED="1591798037962" TEXT="REPL">
+<node CREATED="1590371077832" ID="ID_630706781" MODIFIED="1628729632223" POSITION="right" TEXT="Vanilla">
+<node CREATED="1628726180029" ID="ID_853494726" MODIFIED="1628726830937" TEXT="Promises">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    A promise is an object that will return a value in future.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1628726909200" ID="ID_1155852392" MODIFIED="1628727108742" TEXT="Async / Await">
+<node CREATED="1628727035528" ID="ID_50805328" MODIFIED="1628727107823" TEXT="async functions">
+<node CREATED="1628726971398" ID="ID_1849756499" MODIFIED="1628727034687" TEXT="Returned value will always be a promise.">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    It doesn&#8217;t matter what you return. The returned value will always be a promise.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1628727059182" ID="ID_551131795" MODIFIED="1628727084706" TEXT="Always handle the next step in a then call">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    When you call a promise, you handle the next step in a then call
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1628727463091" ID="ID_155740200" MODIFIED="1628727477649" TEXT="Promise.all">
+<node CREATED="1628727478200" ID="ID_704050820" MODIFIED="1628727501388" TEXT="Wait for all methods to be finiished"/>
+</node>
+</node>
+<node CREATED="1628729632224" ID="ID_1252324044" MODIFIED="1628729634626" TEXT="variables">
+<node CREATED="1628729635108" ID="ID_1314079834" MODIFIED="1628729653009" TEXT="const">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">&#160;it represents a computer environment like a window console or unix/linux shell where a command is entered and system responds with an output</font>
+      permite definir variables inmmutables
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1628729636672" ID="ID_1961998092" MODIFIED="1628729638669" TEXT="let"/>
+<node CREATED="1628729639281" ID="ID_1862364448" MODIFIED="1628729640269" TEXT="var"/>
+</node>
+</node>
+<node CREATED="1591150938457" ID="ID_635509726" MODIFIED="1591152953415" POSITION="left" TEXT="NodeJS">
+<node CREATED="1591150976164" ID="ID_936025445" MODIFIED="1591150983727" TEXT="Bundled with REPL Environment">
+<node CREATED="1591150943345" ID="ID_673369431" MODIFIED="1628726174927" TEXT="REPL">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">&#160;it represents a computer environment like a window console or unix/linux shell where a command is entered and system responds with an output</font>
     </p>
   </body>
 </html></richcontent>
@@ -142,7 +194,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1591151310756" ID="ID_842685671" MODIFIED="1591151322659" TEXT="NPM">
+<node CREATED="1591151310756" ID="ID_842685671" MODIFIED="1628726174926" TEXT="NPM">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -154,17 +206,14 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591151447181" ID="ID_1591064224" MODIFIED="1591151550784" TEXT="What is a callback?">
+<node CREATED="1591151447181" ID="ID_1591064224" MODIFIED="1628726174924" TEXT="What is a callback?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma">A callback function is called at the completion of a given task. So there is no blocking or wait for&#160;the result</font>
-    </p>
-    <p>
-      
+      <font face="Arial, Verdana, Tahoma" color="rgb(0, 0, 0)">A callback function is called at the completion of a given task. So there is no blocking or wait for&#160;the result</font>
     </p>
   </body>
 </html></richcontent>
@@ -195,34 +244,31 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1591151720588" ID="ID_725750412" MODIFIED="1591151763654" TEXT="Buffer class in node">
+<node CREATED="1591151720588" ID="ID_725750412" MODIFIED="1628726174923" TEXT="Buffer class in node">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">A Buffer is a kind of an array of integers and corresponds to a raw memory allocation outside the V8 heap. A Buffer cannot be resized</font>
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">A Buffer is a kind of an array of integers and corresponds to a raw memory allocation outside the V8 heap. A Buffer cannot be resized</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591151775769" ID="ID_782765437" MODIFIED="1591151815838" TEXT="Piping in Node">
+<node CREATED="1591151775769" ID="ID_782765437" MODIFIED="1628726174922" TEXT="Piping in Node">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">Piping is a mechanism to connect output of one stream to another stream. It is normally used to get data from one stream and to pass output of that stream to another stream. There is no limit on piping operations.&#160;</font>
-    </p>
-    <p>
-      
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">Piping is a mechanism to connect output of one stream to another stream. It is normally used to get data from one stream and to pass output of that stream to another stream. There is no limit on piping operations.&#160;</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591151815809" ID="ID_1628944074" MODIFIED="1591151851284" TEXT="Which module is used for file based operations?">
+<node CREATED="1591151815809" ID="ID_1628944074" MODIFIED="1628726174920" TEXT="Which module is used for file based operations?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -234,7 +280,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591151853876" ID="ID_1531580195" MODIFIED="1591151896267" TEXT="Which module is used for buffer based operations?">
+<node CREATED="1591151853876" ID="ID_1531580195" MODIFIED="1628726174919" TEXT="Which module is used for buffer based operations?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -246,13 +292,10 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591151896241" ID="ID_1621862781" MODIFIED="1591151908243" TEXT="Which module is used for web based operations?">
+<node CREATED="1591151896241" ID="ID_1621862781" MODIFIED="1628726174918" TEXT="Which module is used for web based operations?">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -262,7 +305,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591151913110" FOLDED="true" ID="ID_992793239" MODIFIED="1591152284428" TEXT="Common Node Modules">
+<node CREATED="1591151913110" ID="ID_992793239" MODIFIED="1628725517041" TEXT="Common Node Modules">
 <node CREATED="1591151921965" ID="ID_1435873655" MODIFIED="1591151952455" TEXT="&quot;fs&quot; for File Operations"/>
 <node CREATED="1591151928722" ID="ID_1726686588" MODIFIED="1591151962026" TEXT="&quot;buffer for &quot;Buffer Operations"/>
 <node CREATED="1591151935215" ID="ID_1186719348" MODIFIED="1591151984667" TEXT="&quot;http&quot; for Web Operations"/>
@@ -389,60 +432,67 @@
 </node>
 </node>
 <node CREATED="1591152424741" ID="ID_1716745742" MODIFIED="1591152429616" TEXT="Time Functions">
-<node CREATED="1591152432159" ID="ID_1762572853" MODIFIED="1591152491238" TEXT="setTimeout">
+<node CREATED="1591152432159" ID="ID_1762572853" MODIFIED="1628726174917" TEXT="setTimeout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">The setTimeout(cb, ms) global function is used to run callback cb after at least ms milliseconds. </font>
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">The setTimeout(cb, ms) global function is used to run callback cb after at least ms milliseconds. </font>
     </p>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">The actual delay depends on external factors like OS timer granularity and system load. A timer cannot span more than 24.8 days.</font>
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">The actual delay depends on external factors like OS timer granularity and system load. A timer cannot span more than 24.8 days.</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591152439994" ID="ID_304804285" MODIFIED="1591152560021" TEXT="clearTimeout">
+<node CREATED="1591152439994" ID="ID_304804285" MODIFIED="1628726174915" TEXT="clearTimeout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">The clearTimeout( t ) global function is used to stop a timer that was previously created with setTimeout(). </font>
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">The clearTimeout( t ) global function is used to stop a timer that was previously created with setTimeout(). </font>
     </p>
     <p>
-      <font color="rgb(0, 0, 0)" face="Arial, Verdana, Tahoma" size="2">Here t is the timer returned by setTimeout() function.</font>
+      <font color="rgb(0, 0, 0)" size="2" face="Arial, Verdana, Tahoma">Here t is the timer returned by setTimeout() function.</font>
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591152437187" ID="ID_1249124848" MODIFIED="1591152528278" TEXT="setInterval">
+<node CREATED="1591152437187" ID="ID_1249124848" MODIFIED="1628726174914" TEXT="setInterval">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: justify; color: rgb(0, 0, 0); font-size: 15px !important; font-family: Arial, Verdana, Tahoma; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+    <p style="padding-right: 0px; font-size: 15px !important; background-color: rgb(255, 255, 255); text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: justify; margin-bottom: 0; margin-right: 0; padding-top: 0px; text-transform: none; margin-top: 0; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; margin-left: 0; font-family: Arial, Verdana, Tahoma; white-space: normal">
       <font size="2">The setInterval(cb, ms) global function is used to run callback cb repeatedly after at least ms milliseconds. </font>
     </p>
-    <p style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: justify; color: rgb(0, 0, 0); font-size: 15px !important; font-family: Arial, Verdana, Tahoma; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+    <p style="padding-right: 0px; font-size: 15px !important; background-color: rgb(255, 255, 255); text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: justify; margin-bottom: 0; margin-right: 0; padding-top: 0px; text-transform: none; margin-top: 0; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; margin-left: 0; font-family: Arial, Verdana, Tahoma; white-space: normal">
       
     </p>
-    <p style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: justify; color: rgb(0, 0, 0); font-size: 15px !important; font-family: Arial, Verdana, Tahoma; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+    <p style="padding-right: 0px; font-size: 15px !important; background-color: rgb(255, 255, 255); text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: justify; margin-bottom: 0; margin-right: 0; padding-top: 0px; text-transform: none; margin-top: 0; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; margin-left: 0; font-family: Arial, Verdana, Tahoma; white-space: normal">
       <font size="2">The actual delay depends on external factors like OS timer granularity and system load. A timer cannot span more than 24.8 days. </font>
     </p>
-    <p style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: justify; color: rgb(0, 0, 0); font-size: 15px !important; font-family: Arial, Verdana, Tahoma; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+    <p style="padding-right: 0px; font-size: 15px !important; background-color: rgb(255, 255, 255); text-indent: 0px; padding-left: 0px; padding-bottom: 0px; word-spacing: 0px; letter-spacing: normal; text-align: justify; margin-bottom: 0; margin-right: 0; padding-top: 0px; text-transform: none; margin-top: 0; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; margin-left: 0; font-family: Arial, Verdana, Tahoma; white-space: normal">
       <font size="2">This function returns an opaque value that represents the timer which can be used to clear the timer using the function clearInterval(t). </font>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1591152942772" ID="ID_309123100" MODIFIED="1591152946782" TEXT="Callback Hell"/>
-<node CREATED="1591153131738" ID="ID_851606417" MODIFIED="1591153486466" TEXT="Event Loop">
+<node CREATED="1591152942772" ID="ID_309123100" MODIFIED="1591152946782" TEXT="Callback Hell">
+<node CREATED="1628725655998" ID="ID_509605383" MODIFIED="1628725658626" TEXT="Solutions">
+<node CREATED="1628725659461" ID="ID_842889458" MODIFIED="1628725662297" TEXT="Comments"/>
+<node CREATED="1628725662789" ID="ID_1397256820" MODIFIED="1628725672816" TEXT="Split functions into smaller functions"/>
+<node CREATED="1628725676421" ID="ID_1309398194" MODIFIED="1628725680876" TEXT="Using Promises"/>
+<node CREATED="1628725682857" ID="ID_246154285" MODIFIED="1628725691764" TEXT="Async / Await"/>
+</node>
+</node>
+<node CREATED="1591153131738" ID="ID_851606417" MODIFIED="1628726174911" TEXT="Event Loop">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -455,62 +505,62 @@
       
     </p>
     <p>
-      <font face="Monospaced" size="2">&#160;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
+      <font size="2" face="Monospaced">&#160;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9484;&#9472;&gt;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;timers&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9484;&#9472;&gt;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;timers&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;pending callbacks&#160;&#160;&#160;&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;pending callbacks&#160;&#160;&#160;&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;idle, prepare&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;idle, prepare&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496;&#160;&#160;&#160;&#160;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496;&#160;&#160;&#160;&#160;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488;&#160;&#160;&#160;&#160;&#160;&#160;&#9474;&#160;&#160;&#160;incoming:&#160;&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488;&#160;&#160;&#160;&#160;&#160;&#160;&#9474;&#160;&#160;&#160;incoming:&#160;&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;poll&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;&#9472;&#9472;&#9472;&#9472;&#9508;&#160;&#160;connections, &#9474; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;poll&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;&#9472;&#9472;&#9472;&#9472;&#9508;&#160;&#160;connections, &#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496;&#160;&#160;&#160;&#160;&#160;&#160;&#9474;&#160;&#160;&#160;data, etc.&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496;&#160;&#160;&#160;&#160;&#160;&#160;&#9474;&#160;&#160;&#160;data, etc.&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488;&#160;&#160;&#160;&#160;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488;&#160;&#160;&#160;&#160;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;check&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9474;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;check&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9516;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
+      <font size="2" face="Monospaced">&#9474;&#160;&#160;&#9484;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9524;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9488; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#9492;&#9472;&#9472;&#9508;&#160;&#160;&#160;&#160;&#160;&#160;close callbacks&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
+      <font size="2" face="Monospaced">&#9492;&#9472;&#9472;&#9508;&#160;&#160;&#160;&#160;&#160;&#160;close callbacks&#160;&#160;&#160;&#160;&#160;&#160;&#9474; </font>
     </p>
     <p>
-      <font face="Monospaced" size="2">&#160;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496;</font>
+      <font size="2" face="Monospaced">&#160;&#160;&#160;&#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9496;</font>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591153906427" ID="ID_1009530320" MODIFIED="1591153941929" TEXT="Prime Directive">
+<node CREATED="1591153906427" ID="ID_1009530320" MODIFIED="1628726174906" TEXT="Prime Directive">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -525,7 +575,7 @@
 <node CREATED="1591153946151" ID="ID_1671162095" MODIFIED="1591153947952" TEXT="Never Wait"/>
 <node CREATED="1591153948434" ID="ID_1754964876" MODIFIED="1591153950569" TEXT="Finish Fast"/>
 </node>
-<node CREATED="1591157063655" ID="ID_1115224941" MODIFIED="1591157065655" TEXT="Phases">
+<node CREATED="1591157063655" ID="ID_1115224941" MODIFIED="1628725538231" TEXT="Phases">
 <node CREATED="1591157069370" ID="ID_1388973978" MODIFIED="1591157073622" TEXT="Timers"/>
 <node CREATED="1591157074858" ID="ID_530113902" MODIFIED="1591157080744" TEXT="pending callbacks"/>
 <node CREATED="1591157082133" ID="ID_391455649" MODIFIED="1591157086448" TEXT="idle, prepare"/>

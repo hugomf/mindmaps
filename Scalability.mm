@@ -13,7 +13,7 @@
 <node CREATED="1530072050352" ID="ID_1487688580" MODIFIED="1530072070440" TEXT="Adds/Removes resources to/from a single node"/>
 <node CREATED="1530072077290" ID="ID_181408885" MODIFIED="1530072085269" TEXT="adding CPU, memory, etc"/>
 </node>
-<node CREATED="1530072281066" FOLDED="true" ID="ID_1964445504" MODIFIED="1530116592670" POSITION="left" TEXT="Scalability vs Elasticity">
+<node CREATED="1530072281066" ID="ID_1964445504" MODIFIED="1619541146892" POSITION="left" TEXT="Scalability vs Elasticity">
 <node CREATED="1530072289929" ID="ID_1047832796" MODIFIED="1530072304419" TEXT="Scalability is more used ina Private Cloud"/>
 <node CREATED="1530072305446" ID="ID_1762186898" MODIFIED="1530072338960" TEXT="Elasticity is offered on a Public Cloud Scheme"/>
 </node>
@@ -63,8 +63,7 @@
       <font color="rgb(51, 51, 51)" size="1" face="q_serif, Georgia, Times, Times New Roman, Hiragino Kaku Gothic Pro, Meiryo, serif">Splitting up a large monolithic database into multiple smaller databases based on data cohesion.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#3366ff" WIDTH="2"/>
 <node CREATED="1530107673842" ID="ID_394722388" MODIFIED="1530107692633" TEXT="Split a large table into smaller tables in the same server or database"/>
 <node CREATED="1530107560688" ID="ID_446651612" MODIFIED="1530107562135" TEXT="Re-partitioning usually needs downtime."/>

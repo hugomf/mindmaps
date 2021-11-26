@@ -113,7 +113,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589903039107" FOLDED="true" ID="ID_1214646286" MODIFIED="1589905660211" POSITION="right" TEXT="Problem Managment">
+<node CREATED="1589903039107" ID="ID_1214646286" MODIFIED="1628715557277" POSITION="right" TEXT="Problem Managment">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -358,7 +358,7 @@
 <node CREATED="1589905827325" ID="ID_1952932494" MODIFIED="1589905841171" TEXT="Evaluation and Analysis of the entire working process and solution"/>
 <node CREATED="1589905841599" ID="ID_628960122" MODIFIED="1589905912099" TEXT="Perform after the change request is put into effect to determine if the change and its implementation were successful"/>
 </node>
-<node CREATED="1589905934259" ID="ID_637207249" MODIFIED="1589906011063" POSITION="right" TEXT="Capacity Management">
+<node CREATED="1589905934259" ID="ID_637207249" MODIFIED="1628715552315" POSITION="right" TEXT="Capacity Management">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -371,7 +371,8 @@
       Internet bandwidth
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1589905939259" ID="ID_506114958" MODIFIED="1589905940934" TEXT="Objective"/>
 </node>
 </node>

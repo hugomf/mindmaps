@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1593396606348" ID="ID_724703620" MODIFIED="1593399228120" TEXT="Network">
+<node CREATED="1593396606348" ID="ID_724703620" MODIFIED="1637444060518" TEXT="Network">
 <node CREATED="1593396623302" ID="ID_809754782" MODIFIED="1593404634721" POSITION="right" TEXT="NAT">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -30,7 +30,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1593396626833" ID="ID_53826496" MODIFIED="1593397105491" TEXT="SNAT">
+<node CREATED="1593396626833" ID="ID_53826496" MODIFIED="1637442378732" TEXT="SNAT">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -38,9 +38,6 @@
   <body>
     <p>
       <font size="2">Static Nat </font>
-    </p>
-    <p>
-      
     </p>
     <ul>
       <li>
@@ -57,7 +54,8 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1593396662982" ID="ID_433369754" MODIFIED="1593398755426" TEXT="DNAT">
 <richcontent TYPE="NOTE"><html>
@@ -145,7 +143,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1593400928211" FOLDED="true" ID="ID_81384167" MODIFIED="1593404638545" POSITION="left" TEXT="OSI Model">
+<node CREATED="1593400928211" FOLDED="true" ID="ID_81384167" MODIFIED="1637441787826" POSITION="left" TEXT="OSI Model">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -243,7 +241,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1593400986833" ID="ID_382595618" MODIFIED="1593404630472" TEXT="Data Link">
+<node CREATED="1593400986833" FOLDED="true" ID="ID_382595618" MODIFIED="1637441746920" TEXT="Data Link">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -496,5 +494,195 @@
 </node>
 </node>
 <node CREATED="1593396614196" ID="ID_1527088246" MODIFIED="1593396622728" POSITION="right" TEXT="CIDR Block"/>
+<node CREATED="1637441407374" ID="ID_768822373" MODIFIED="1637442464480" POSITION="left" TEXT="IPsec">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Funciona En Capa 4 y Capa 7
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637441429504" ID="ID_1160385974" MODIFIED="1637442299213" TEXT="Objectives">
+<node CREATED="1637441423210" ID="ID_1816824398" MODIFIED="1637441427011" TEXT="Data Integrity"/>
+<node CREATED="1637441420561" ID="ID_787267261" MODIFIED="1637441422823" TEXT="Privacy"/>
+</node>
+<node CREATED="1637441549584" ID="ID_1367753872" MODIFIED="1637441558260" TEXT="IETF Standard"/>
+<node CREATED="1637441582934" ID="ID_796688439" MODIFIED="1637442919517" TEXT="Protocolos">
+<node CREATED="1637441588886" FOLDED="true" ID="ID_1539945294" MODIFIED="1637442921006" TEXT="Seguridad">
+<node CREATED="1637441568269" ID="ID_1739753390" MODIFIED="1637441951854" TEXT="AH">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Authentication Header<br />Es un header de autenticacion que inserta entre el header IPv4 y IPv6 y los datos transportados
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637441615460" ID="ID_82011430" MODIFIED="1637441619569" TEXT="Integridad De Datos"/>
+<node CREATED="1637441620026" ID="ID_1426145162" MODIFIED="1637441622748" TEXT="Autenticacion"/>
+</node>
+<node CREATED="1637441572349" ID="ID_462080476" MODIFIED="1637442111566" TEXT="ESP">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Encapsulating Security Payload
+    </p>
+    <p>
+      <br />
+      Garantiza confidencialidad, Opcionalmente proporciona Autenticacion e Integridad parecida&#160;&#160;a AH
+    </p>
+    <p>
+      Tiene una cabecera mas compleja que AH
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637441953332" ID="ID_931655139" MODIFIED="1637441958781" TEXT="Confidencialidad"/>
+<node CREATED="1637441974161" ID="ID_708121315" MODIFIED="1637441979430" TEXT="Funcion de Cifrado Simetrico"/>
+</node>
+</node>
+<node CREATED="1637441598504" ID="ID_1316960869" MODIFIED="1637441605254" TEXT="Getion de Claves">
+<node CREATED="1637441576076" ID="ID_1866344431" MODIFIED="1637441577611" TEXT="IKE">
+<node CREATED="1637442923613" ID="ID_310583824" MODIFIED="1637442926433" TEXT="Phase 1"/>
+<node CREATED="1637442926818" ID="ID_1926521151" MODIFIED="1637442928182" TEXT="Phase 2"/>
+</node>
+</node>
+</node>
+<node CREATED="1637442113715" ID="ID_914130856" MODIFIED="1637442324969" TEXT="Modos">
+<node CREATED="1637442117310" ID="ID_1431285950" MODIFIED="1637442120101" TEXT="Transporte"/>
+<node CREATED="1637442120586" ID="ID_1605744378" MODIFIED="1637442122997" TEXT="Tunel">
+<node CREATED="1637442189360" ID="ID_1813976215" MODIFIED="1637442202403" TEXT="VPN">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Se usa para montar un VPN
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1637442307398" FOLDED="true" ID="ID_974728807" MODIFIED="1637442315318" TEXT="Soporta">
+<node CREATED="1637441472918" ID="ID_588901793" MODIFIED="1637441538382" TEXT="IPv4"/>
+<node CREATED="1637441538918" ID="ID_1731192942" MODIFIED="1637441542147" TEXT="IPv6"/>
+</node>
+</node>
+<node CREATED="1637442402077" ID="ID_1415741310" MODIFIED="1637442403836" POSITION="left" TEXT="DMZ"/>
+<node CREATED="1637443144904" ID="ID_535173676" MODIFIED="1637443146552" POSITION="right" TEXT="Devices">
+<node CREATED="1637443150458" ID="ID_133420210" MODIFIED="1637443397197" TEXT="Hub">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Unlike switch, a Hub broadcasts data to all nodes in the network
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1637443152147" ID="ID_317300742" MODIFIED="1637443511428" TEXT="Switch">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Swtich maintains a mac address table to send only the data to a specific address
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1637443148411" ID="ID_1168397061" MODIFIED="1637443593860" TEXT="Router">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Routes data to other network
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1637443604151" ID="ID_797211890" MODIFIED="1637443722632" POSITION="left" TEXT="IP Address">
+<node CREATED="1637443618051" ID="ID_917907027" MODIFIED="1637443620804" TEXT="IPv4"/>
+<node CREATED="1637443621168" ID="ID_1846253974" MODIFIED="1637443624600" TEXT="IPv5"/>
+<node CREATED="1637443594853" FOLDED="true" ID="ID_1640109114" MODIFIED="1637499088616" TEXT="Subnet Masks">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reveals how many bits&#160;&#160;in the IP address&#160;&#160;are used for the network by masking the network portion of the ip address (8 bit octets)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637443979357" ID="ID_1498360334" MODIFIED="1637443982874" TEXT="Network Part"/>
+<node CREATED="1637443975708" ID="ID_1584961764" MODIFIED="1637443987493" TEXT="Host Part"/>
+<node CREATED="1637444255709" ID="ID_1995020358" MODIFIED="1637445437355" TEXT="Class">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      A&#160;&#160;&#160;&#160;&#160;|&#160;&#160;&#160;001-127&#160;&#160;&#160;&#160;|&#160;&#160;&#160;255.0.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;| Large networks (16M Hosts)<br />B &#160;&#160;&#160;&#160;|&#160;&#160;&#160;128-191&#160;&#160;&#160;&#160;|&#160;&#160;&#160;255.255.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;| Medim size networks (65K Hosts)
+    </p>
+    <p>
+      C&#160;&#160;&#160;&#160;&#160;|&#160;&#160;&#160;192-223&#160;&#160;&#160;&#160;|&#160;&#160;&#160;255.255.255.0&#160;&#160;&#160;| Home Networks (254 Hosts)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1637444936858" ID="ID_84041739" MODIFIED="1637445380664" TEXT="CIDR / Slash Notation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Classless InterDomain Routing (Slash Notation)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A shorter way to write a subnet mask, it works by adding a forward slash for example: 192.168.1.0/24
+    </p>
+    <p>
+      the number after slash means how much bits in length in the subnet masks so: 11111111.11111111.11111111.0 = 255.255.255.0<br />
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1637444061041" ID="ID_665119775" MODIFIED="1637444065976" POSITION="right" TEXT="DHCP"/>
 </node>
 </map>
